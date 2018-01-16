@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT musicpete (InstrumentState*, InstrumentCategory*, Person*)>
+<!ELEMENT InstrumentCategory (InstrumentFamily)*>
+<!ATTLIST InstrumentCategory name CDATA #REQUIRED
+							 ID ID #REQUIRED >
+							 
+<!ELEMENT InstrumentFamily (InstrumentType)*>
+<!ATTLIST InstrumentFamily name CDATA #REQUIRED
+						   ID ID #REQUIRED>
+
+<!ELEMENT InstrumentType (Instrument*)>
+<!ATTLIST InstrumentType name CDATA #REQUIRED
+						 ID ID #REQUIRED
+						 instrumentTuningID CDATA #REQUIRED>
+						
+<!ELEMENT InstrumentState EMPTY>
+<!ATTLIST InstrumentState ID ID #REQUIRED
+						  name CDATA #REQUIRED>
+
+<!ELEMENT Instrument EMPTY>
+<!ATTLIST Instrument ID ID #REQUIRED
+					instrumentName CDATA #REQUIRED
+					instrumentStateID IDREF #REQUIRED
+					color CDATA #IMPLIED
+					buyDate CDATA #REQUIRED
+					price CDATA #IMPLIED
+					receiptDocumentID CDATA #IMPLIED
+					accessories CDATA #IMPLIED>
+
+<!ELEMENT Address EMPTY>
+<!ATTLIST Address ID ID #REQUIRED
+				  country CDATA #REQUIRED
+				  province CDATA #REQUIRED
+				  zipCode CDATA #REQUIRED
+				  city CDATA #REQUIRED
+				  street CDATA #REQUIRED
+				  streetNumber CDATA #REQUIRED
+				  apartment CDATA #IMPLIED>
+
+<!ELEMENT Person (PersonInstrumentType*, Address)>
+<!ATTLIST Person ID ID #REQUIRED
+				 lName CDATA #REQUIRED
+				 fName CDATA #REQUIRED
+				 dateOfBirth CDATA #REQUIRED
+				 eMailAddress CDATA #IMPLIED
+				 phoneNumber CDATA #IMPLIED
+				 isActive CDATA #REQUIRED>
+			
+
+<!ELEMENT PersonInstrumentType EMPTY>
+<!ATTLIST PersonInstrumentType ID ID #REQUIRED
+								instrumentTypeID IDREF #REQUIRED
+								fdate CDATA #REQUIRED
+								ldate CDATA #IMPLIED>
+
+
+

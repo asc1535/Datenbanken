@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT management (employee*, country*, profession*)>
+
+<!ELEMENT country EMPTY>
+<!ATTLIST country	country_id		ID		#REQUIRED
+					country_name	CDATA	#REQUIRED
+					nationality		CDATA	#REQUIRED>
+
+<!ELEMENT employee (address*, phone*, email*, employment*)>
+<!ATTLIST employee	employee_id	ID	#REQUIRED
+					SVN			CDATA	#REQUIRED
+					fname		CDATA	#REQUIRED
+					lname		CDATA	#REQUIRED
+					birthdate	CDATA	#REQUIRED
+					comment		CDATA	#IMPLIED
+					country_id	IDREF	#REQUIRED>
+
+<!ELEMENT address EMPTY>
+<!ATTLIST address	street_name		CDATA	#REQUIRED
+					city_name		CDATA	#REQUIRED
+					zip_code		CDATA	#REQUIRED
+					country_id		IDREF	#REQUIRED>
+
+<!ELEMENT phone EMPTY>
+<!ATTLIST phone	phone_no	CDATA	#REQUIRED>
+
+<!ELEMENT email EMPTY>
+<!ATTLIST email	email_addr	CDATA	#REQUIRED>
+
+<!ELEMENT employment (time_record*)>
+<!ATTLIST employment	employment_id	ID		#REQUIRED
+						prof_id			IDREF	#REQUIRED
+						start_date		CDATA	#REQUIRED
+						end_date		CDATA	#IMPLIED
+						hours			CDATA	#REQUIRED
+						vacation_hours	CDATA	#REQUIRED
+						iban			CDATA	#REQUIRED
+						bic				CDATA	#REQUIRED>
+
+<!ELEMENT time_record EMPTY>
+<!ATTLIST time_record	time_record_id	ID		#REQUIRED
+						f_timestamp		CDATA	#REQUIRED
+						l_timestamp		CDATA	#REQUIRED
+						comment			CDATA	#IMPLIED>
+
+<!ELEMENT profession EMPTY>
+<!ATTLIST profession	prof_id		ID		#REQUIRED
+						profession	(KellnerIn|BarkeeperIn|Reinigungsfachkraft|Koch|Tänzerin|Hausmeister)	#REQUIRED>

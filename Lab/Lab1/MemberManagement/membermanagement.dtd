@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT member-management (price_category*, 
+							 event*, team*, role*, member+)>
+
+<!ELEMENT price_category EMPTY>
+<!ATTLIST price_category 	id ID #REQUIRED
+							cat_name (Premium | Platin | Standard) #REQUIRED
+							price CDATA #REQUIRED>
+
+<!ELEMENT event (visitor*)>
+<!ATTLIST event 	id ID #REQUIRED
+					event_id CDATA #REQUIRED
+					event_name CDATA #REQUIRED
+					event_date CDATA #REQUIRED>
+<!ELEMENT visitor EMPTY>
+<!ATTLIST visitor	visitor-id IDREF #REQUIRED>
+
+<!ELEMENT team EMPTY>
+<!ATTLIST team 	id ID #REQUIRED
+				team_id CDATA #REQUIRED
+				team_name CDATA #REQUIRED>
+
+<!ELEMENT role EMPTY>
+<!ATTLIST role	id ID #REQUIRED
+				role_name CDATA #REQUIRED>
+
+<!ELEMENT member (member-role*, team-role*, subscription*)>
+<!ATTLIST member	id ID #REQUIRED
+					member_id CDATA #REQUIRED
+					member_name CDATA #REQUIRED
+					phone CDATA #IMPLIED
+					email CDATA #IMPLIED
+					fdate CDATA #REQUIRED
+					ldate CDATA #IMPLIED
+					cat_id IDREF #REQUIRED
+					street CDATA #REQUIRED
+					postal_code CDATA #REQUIRED
+					residence CDATA #REQUIRED
+					country CDATA #REQUIRED>
+<!ELEMENT member-role EMPTY>
+<!ATTLIST member-role	role-id IDREF #REQUIRED>
+<!ELEMENT team-role EMPTY>
+<!ATTLIST team-role		role-id IDREF #REQUIRED
+						team-id IDREF #REQUIRED>
+					
+<!ELEMENT subscription EMPTY>
+<!ATTLIST subscription	id ID #REQUIRED
+						due_date CDATA #REQUIRED
+						received_date CDATA #IMPLIED
+						amount CDATA #REQUIRED>

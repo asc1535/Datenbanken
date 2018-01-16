@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SKL SYSTEM "file:///C:\Users\fati\eclipse-workspace\xml-examples\SKL\project1.1.dtd">
+<SKL>
+	<benutzerkategorie id ="benutzerkategorie-1" type ="A" />
+	<benutzerkategorie id ="benutzerkategorie-2" type ="B" />
+	<benutzerkategorie id ="benutzerkategorie-3" type ="C" />
+	
+	<tarif id ="AA" type ="AA" />
+	<tarif id ="BB" type ="BB" />
+	<tarif id ="CC" type ="CC" />
+	
+	<leistung
+		id = "leistung-1"
+		type = "ABC"/>
+
+	
+	<benutzer
+		id = "benutzer-1"
+		id_benutzerkategorie = "benutzerkategorie-1" 
+		vorname = "Max"
+		nachname = "Müller">
+		<stundenerfassung
+			id_kunde = "kunde-1"
+			id_leistung = "leistung-1"
+			startzeit = "2017-12-24T12:00:00"
+			dauer = "2h"/>		
+	</benutzer>
+	
+	<kunde
+		id = "kunde-1"
+		vorname ="Max"
+		nachname = "Müller"/>
+		
+	<kunde
+		id = "kunde-2"
+		vorname ="Tom"
+		nachname = "Knuth"/>
+		
+	<kunde
+		id = "kunde-3"
+		vorname ="Bob"
+		nachname = "Blue"/>		
+	
+	<kilometereintrag
+		id = "kilometereintrag-1"
+		id_benutzer = "benutzer-1"
+		datum = "2017-12-24T12:00:00"
+		kilometer = "180192"/>
+
+</SKL>
+

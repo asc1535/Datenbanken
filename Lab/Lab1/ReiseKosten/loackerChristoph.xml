@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Christoph Loacker
+	21.12.2017
+	Datenmanagement
+-->
+<!DOCTYPE SKL SYSTEM "project.dtd">
+<SKL>
+	<benutzerkategorie id="benutzerkategorie-1" type="Leiter"/>
+	<benutzerkategorie id="benutzerkategorie-2" type="Mitarbeiter"/>
+		
+	<tarif id="tarif-1" type="Tarif A"/>
+	<tarif id="tarif-2" type="tarif B"/>
+	<tarif id="tarif-3" type="tarif C"/>
+
+	
+	<leistung id="leistung-1" type="innerhalb"/>
+	<leistung id="leistung-2" type="innerhalb"/>
+	
+	<benutzer id="benutzer-1" id_benutzerkategorie="benutzerkategorie-1" vorname="Christoph" nachname="Loacker">
+		<stundenerfassung id_kunde="kunde-1" id_leistung="leistung-1" startzeit="2017-12-21T08:00:00" dauer="04:00:00"/>	
+	</benutzer>
+	
+	<benutzer id="benutzer-2" id_benutzerkategorie="benutzerkategorie-2" vorname="Max" nachname="Mustermann">
+		<stundenerfassung id_kunde="kunde-1" id_leistung="leistung-2" startzeit="2017-12-01T12:00:00" dauer="06:00:00"/>
+	</benutzer>
+	
+	<kunde id="kunde-1" vorname="vKunde1" nachname="nKunde1"/>
+	<kunde id="kunde-2" vorname="vKunde2" nachname="nKunde2"/>
+</SKL>

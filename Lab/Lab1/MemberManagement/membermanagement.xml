@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE member-management SYSTEM "membermanagement.dtd">
+<member-management>
+	<!-- Level 1 -->
+	<price_category id="category-1" cat_name="Standard" price="30"/>
+	<price_category id="category-2" cat_name="Premium" price="80"/>
+	<price_category id="category-3" cat_name="Platin" price="120"/> 
+	
+	<event id="event-1" event_id="201801" event_name="FC-Ball" event_date="07.01.2018">
+		<visitor visitor-id="member-1"/>
+		<visitor visitor-id="member-3"/>
+		<visitor visitor-id="member-4"/>
+	</event>
+	<event id="event-2" event_id="201802" event_name="Jahreshauptversammlung" event_date="12.07.2018"/>
+	<event id="event-3" event_id="201803" event_name="Kathrinemarkt" event_date="25.11.2018"/>
+	
+	<team id="team-1" team_id="1" team_name="FC Sulzberg"/>
+	<team id="team-2" team_id="1b" team_name="FC Sulzberg 1b"/>
+	<team id="team-3" team_id="U16" team_name="FNZ Rotachtal U16"/>
+	<team id="team-4" team_id="U14" team_name="FNZ Rotachtal U14"/>
+	<team id="team-5" team_id="U13" team_name="FNZ Rotachtal U13"/>
+	<team id="team-6" team_id="U12" team_name="FNZ Rotachtal U12"/>
+	<team id="team-7" team_id="U11" team_name="FNZ Rotachtal U11"/>
+	<team id="team-8" team_id="U10A" team_name="FNZ Rotachtal U10A"/>
+	<team id="team-9" team_id="U10B" team_name="FNZ Rotachtal U10B"/>
+	<team id="team-10" team_id="U9" team_name="FC Sulzberg U9"/>
+	<team id="team-11" team_id="U7" team_name="FC Sulzberg U7"/>
+	
+	<role id="role-1" role_name="Vorstand"/>
+	<role id="role-2" role_name="TrainerIn"/>
+	<role id="role-3" role_name="SpielerIn"/>
+	<role id="role-4" role_name="PhysiotherapeutIn"/>
+	<role id="role-5" role_name="Reinigungskraft"/>
+	<role id="role-6" role_name="Freiwillige HelferIn"/>
+	
+	<!-- Level 2 -->
+	<member id="member-1"
+			member_id="1" 
+			member_name="Niklas Alber" 
+			phone="0664123456789" 
+			email="niklas.alber@alber.at" 
+			fdate="28.08.2002" 
+			ldate="null" 
+			cat_id="category-1"
+			street="Dorf 355"  
+			postal_code="6934" 
+			residence="Sulzberg" 
+			country="AUT">
+			<member-role role-id="role-1"/>
+			<team-role role-id="role-3" team-id="team-2"/>
+			<team-role role-id="role-2" team-id="team-3"/>
+			<subscription 	id="subscription-1"
+							due_date="31.10.2018" 
+							received_date="10.01.2018" 
+							amount="30.00"/>
+	</member>
+	<member id="member-2"
+			member_id="2" 
+			member_name="Johannes Koch" 
+			phone="0699123456789" 
+			email="jo@ko.at" 
+			fdate="22.09.2017" 
+			ldate="null" 
+			cat_id="category-3"
+			street="Hämmerstraße 32"  
+			postal_code="6800" 
+			residence="Feldkirch" 
+			country="AUT">
+			<member-role role-id="role-6"/>
+			<member-role role-id="role-5"/>
+			<subscription 	id="subscription-2"
+							due_date="31.10.2018" 
+							amount="120.00"/>
+	</member>
+	<member id="member-3"
+			member_id="3" 
+			member_name="Norbert Jäger" 
+			phone="06991122334455" 
+			email="norbert@jaeger.at" 
+			fdate="01.01.1987" 
+			ldate="null" 
+			cat_id="category-3"
+			street="Bödelestraße 14"  
+			postal_code="6850" 
+			residence="Dornbirn" 
+			country="AUT">
+			<member-role role-id="role-1"/>
+			<subscription 	id="subscription-3"
+							due_date="31.10.2018" 
+							received_date="01.01.2018" 
+							amount="120.00"/>
+	</member>
+	<member id="member-4"
+			member_id="4" 
+			member_name="Peter Müller" 
+			phone="0664987654321" 
+			email="müller@müller.at" 
+			fdate="01.08.2010" 
+			ldate="null" 
+			cat_id="category-1"
+			street="Suchardstraße 29"  
+			postal_code="6700" 
+			residence="Bludenz" 
+			country="AUT">
+			<team-role role-id="role-3" team-id="team-1"/>
+			<subscription 	id="subscription-4"
+							due_date="31.10.2018" 
+							amount="30.00"/>
+	</member>	
+	<member id="member-5"
+			member_id="5" 
+			member_name="Anne Jovanovics" 
+			phone="0660999666333" 
+			email="jovanovics@feenzauber.at" 
+			fdate="01.03.2016" 
+			ldate="null" 
+			cat_id="category-1"
+			street="Memorylane 10"  
+			postal_code="6850" 
+			residence="Dornbirn" 
+			country="AUT">
+			<member-role role-id="role-6"/>
+			<subscription 	id="subscription-5"
+							due_date="31.10.2018" 
+							amount="30.00"/>
+	</member>
+	<member id="member-6"
+			member_id="6" 
+			member_name="Jakob Maier" 
+			phone="06769182756" 
+			email="maier@glueckskeks.at" 
+			fdate="08.12.2014" 
+			ldate="null" 
+			cat_id="category-1"
+			street="Wagenstraße 34"  
+			postal_code="6850" 
+			residence="Dornbirn" 
+			country="AUT">
+			<member-role role-id="role-5"/>
+			<subscription 	id="subscription-6"
+							due_date="31.10.2018" 
+							received_date="02.01.2018" 
+							amount="30.00"/>
+	</member>
+	<member id="member-7"
+			member_id="7" 
+			member_name="Rosalie Hale" 
+			phone="06602040666" 
+			email="hale@blutzahn.com" 
+			fdate="20.01.2017" 
+			ldate="null" 
+			cat_id="category-1"
+			street="Wolfsgasse 666"  
+			postal_code="6850" 
+			residence="Dornbirn" 
+			country="AUT">
+			<team-role role-id="role-3" team-id="team-1"/>
+			<subscription 	id="subscription-7"
+							due_date="31.10.2018" 
+							amount="30.00"/>
+	</member>	
+	<member id="member-8"
+			member_id="8" 
+			member_name="Donald Duck" 
+			phone="06761234567" 
+			email="donald.duck@disney.com" 
+			fdate="01.07.1940" 
+			ldate="null" 
+			cat_id="category-1"
+			street="Duck-Street 10"  
+			postal_code="6900" 
+			residence="Bregenz" 
+			country="AUT">
+			<member-role role-id="role-6"/>
+			<subscription 	id="subscription-8"
+							due_date="31.10.2018" 
+							amount="30.00"/>
+	</member>
+	<member id="member-9"
+			member_id="9" 
+			member_name="Daisy Duck" 
+			phone="06767654321" 
+			email="daisy.duck@disney.com" 
+			fdate="01.08.1940" 
+			ldate="null" 
+			cat_id="category-1"
+			street="Duck-Street 10"  
+			postal_code="6900" 
+			residence="Bregenz" 
+			country="AUT">
+			<member-role role-id="role-4"/>
+			<subscription 	id="subscription-9"
+							due_date="31.10.2018" 
+							amount="30.00"/>
+	</member>
+	<member id="member-10"
+			member_id="10" 
+			member_name="Dagobert Duck" 
+			phone="06601111122" 
+			email="dagobert.duck@disney.com" 
+			fdate="01.01.1939" 
+			ldate="null" 
+			cat_id="category-1"
+			street="Goose-Street 1"  
+			postal_code="6850" 
+			residence="Dornbirn" 
+			country="AUT">
+			<team-role role-id="role-3" team-id="team-1"/>
+			<subscription 	id="subscription-10"
+							due_date="31.10.2018" 
+							received_date="09.01.2018" 
+							amount="30.00"/>
+	</member>
+	<member id="member-11"
+			member_id="11" 
+			member_name="Billy Unterwasser" 
+			phone="7835189452" 
+			email="bill@blubblub.com" 
+			fdate="08.04.1999" 
+			ldate="null" 
+			cat_id="category-2"
+			street="Zum See 1"  
+			postal_code="6900" 
+			residence="Bregenz" 
+			country="AUT">
+			<team-role role-id="role-3" team-id="team-6"/>
+			<subscription 	id="subscription-11"
+							due_date="31.10.2018" 
+							received_date="01.01.2018" 
+							amount="80.00"/>
+	</member>
+	<member id="member-12"
+			member_id="12" 
+			member_name="Frank Walter" 
+			phone="0382956381" 
+			email="frank@walter.de" 
+			fdate="08.04.1999" 
+			ldate="null" 
+			cat_id="category-2"
+			street="Bachgasse 14"  
+			postal_code="78476" 
+			residence="Allensbach" 
+			country="GER">
+			<team-role role-id="role-3" team-id="team-6"/>
+			<subscription 	id="subscription-12"
+							due_date="31.10.2018" 
+							amount="80.00"/>
+	</member>
+	<member id="member-13"
+			member_id="13" 
+			member_name="Ulf Hilfgerne" 
+			phone="0758392534" 
+			email="ulf@hilftgerne.net" 
+			fdate="03.03.2003" 
+			ldate="null" 
+			cat_id="category-1"
+			street="Sozialestraße 55"  
+			postal_code="6850" 
+			residence="Dornbirn" 
+			country="AUT">
+			<member-role role-id="role-6"/>
+			<subscription 	id="subscription-13"
+							due_date="31.10.2018" 
+							amount="30.00"/>
+	</member>
+</member-management>

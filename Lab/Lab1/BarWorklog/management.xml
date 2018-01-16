@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE management SYSTEM "management.dtd">
+<management>
+
+	<employee employee_id="employee_00001" SVN="2410240196" fname="Simon" lname="Mair" birthdate="1996-01-24" country_id="AUT">
+		<address street_name="Tannenfeldstraße 40" city_name="Meiningen" zip_code="6812" country_id="AUT"/>
+		<phone phone_no="0664 3803383"/>
+		<email email_addr="simon.mair@students.fhv.at"/>
+		<employment employment_id="employment_0000000001" prof_id="profession_00001" start_date="2017-12-20" end_date="2017-12-21" hours="8.00" vacation_hours="3.00" iban="AT46238412452584" bic="RVVGAT2B427">
+			<time_record time_record_id="time_record_0000000001" f_timestamp="2017-12-20T08:00:00" l_timestamp="2017-12-20T16:00:00" comment="Bla Bla Bla"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Musterman" birthdate="1990-04-05" SVN="2410240192" employee_id="employee_00002" country_id="GER" fname="Esel">
+		<address zip_code="2442" city_name="Wademünde" street_name="Flussstraße 3" country_id="GER"/>
+		<address zip_code="2233" city_name="BERN" street_name="DIE KURVE 3" country_id="CHE"/>
+		<phone phone_no="0399 2253332"/>
+		<phone phone_no="3321 4555233"/>
+		<email email_addr="musterm@monney.com"/>
+		<email email_addr="jonniBgood@oww.com"/>
+		<employment hours="56" start_date="2017-12-20" employment_id="employment_0000000002" iban="AT46238412452584" bic="RVVGAT2B427" prof_id="profession_00001" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000002" l_timestamp="2017-12-20T08:00:00" f_timestamp="2017-12-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000003" l_timestamp="2017-12-21T08:00:00" f_timestamp="2017-12-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000004" l_timestamp="2017-12-22T08:00:00" f_timestamp="2017-12-22T16:00:00"/>
+			<time_record time_record_id="time_record_0000000005" l_timestamp="2017-12-23T08:00:00" f_timestamp="2017-12-23T16:00:00"/>
+			<time_record time_record_id="time_record_0000000006" l_timestamp="2017-12-24T08:00:00" f_timestamp="2017-12-24T16:00:00"/>
+			<time_record time_record_id="time_record_0000000007" l_timestamp="2017-12-25T08:00:00" f_timestamp="2017-12-25T16:00:00"/>
+			<time_record time_record_id="time_record_0000000008" l_timestamp="2017-12-26T08:00:00" f_timestamp="2017-12-26T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Serge" birthdate="1993-02-05" SVN="2410240192" employee_id="employee_00003" country_id="AZE" fname="Muruk">
+		<address zip_code="2542" city_name="Bulm" street_name="Southstreet 3" country_id="AZE"/>
+		<address zip_code="1111" city_name="BERN" street_name="DIE KURVE 7" country_id="CHE"/>
+		<phone phone_no="0339 2552332"/>
+		<phone phone_no="3391 4555999"/>
+		<email email_addr="musborm@mouuey.com"/>
+		<email email_addr="Rideer@w.com"/>
+		<employment hours="56" start_date="2017-12-20" employment_id="employment_0000000003" iban="AT46238412452584" bic="RVVGAT2B427" prof_id="profession_00002" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000009" l_timestamp="2017-12-20T08:00:00" f_timestamp="2017-12-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000010" l_timestamp="2017-12-21T08:00:00" f_timestamp="2017-12-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000011" l_timestamp="2017-12-22T08:00:00" f_timestamp="2017-12-22T16:00:00"/>
+			<time_record time_record_id="time_record_0000000012" l_timestamp="2017-12-23T08:00:00" f_timestamp="2017-12-23T16:00:00"/>
+			<time_record time_record_id="time_record_0000000013" l_timestamp="2017-12-24T08:00:00" f_timestamp="2017-12-24T16:00:00"/>
+			<time_record time_record_id="time_record_0000000014" l_timestamp="2017-12-25T08:00:00" f_timestamp="2017-12-25T16:00:00"/>
+			<time_record time_record_id="time_record_0000000015" l_timestamp="2017-12-26T08:00:00" f_timestamp="2017-12-26T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee fname="Slim" lname="Shady" birthdate="1972-01-01" SVN="27202492192" employee_id="employee_00004" country_id="USA" >
+		<address zip_code="0815" city_name="Detroit" street_name="Trailerpark" country_id="USA"/>
+		<phone phone_no="01 0003 0004"/>
+		<email email_addr="slim.shady@shady-records.com"/>
+		<employment hours="2" start_date="1972-01-01" employment_id="employment_0000000004" iban="US37891241423" bic="GENODES1TET" prof_id="profession_00006" vacation_hours="200">
+			<time_record time_record_id="time_record_0000000016" l_timestamp="2017-12-20T08:00:00" f_timestamp="2017-12-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000017" l_timestamp="2017-12-21T08:00:00" f_timestamp="2017-12-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000018" l_timestamp="2017-12-22T08:00:00" f_timestamp="2017-12-22T16:00:00"/>
+			<time_record time_record_id="time_record_0000000019" l_timestamp="2017-12-23T08:00:00" f_timestamp="2017-12-23T16:00:00"/>
+			<time_record time_record_id="time_record_0000000020" l_timestamp="2017-12-24T08:00:00" f_timestamp="2017-12-24T16:00:00"/>
+			<time_record time_record_id="time_record_0000000021" l_timestamp="2017-12-25T08:00:00" f_timestamp="2017-12-25T16:00:00"/>
+			<time_record time_record_id="time_record_0000000022" l_timestamp="2017-12-26T08:00:00" f_timestamp="2017-12-26T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee fname="Snoop" lname="Dogg" birthdate="1971-01-01" SVN="2721340196" employee_id="employee_00005" country_id="USA" >
+		<address zip_code="0815" city_name="Los Angeles" street_name="Long Beach" country_id="USA"/>
+		<phone phone_no="119 101 101 100"/>
+		<email email_addr="snoop@master-kush.com"/>
+		<employment hours="7" start_date="1971-01-01" employment_id="employment_0000000005" iban="US37891241421" bic="GENODES1TET" prof_id="profession_00002" vacation_hours="100">
+			<time_record time_record_id="time_record_0000000023" l_timestamp="2017-12-20T08:00:00" f_timestamp="2017-12-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000024" l_timestamp="2017-12-21T08:00:00" f_timestamp="2017-12-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000025" l_timestamp="2017-12-22T08:00:00" f_timestamp="2017-12-22T16:00:00"/>
+			<time_record time_record_id="time_record_0000000026" l_timestamp="2017-12-23T08:00:00" f_timestamp="2017-12-23T16:00:00"/>
+			<time_record time_record_id="time_record_0000000027" l_timestamp="2017-12-24T08:00:00" f_timestamp="2017-12-24T16:00:00"/>
+			<time_record time_record_id="time_record_0000000028" l_timestamp="2017-12-25T08:00:00" f_timestamp="2017-12-25T16:00:00"/>
+			<time_record time_record_id="time_record_0000000029" l_timestamp="2017-12-26T08:00:00" f_timestamp="2017-12-26T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee fname="Will" lname="Smith" birthdate="1980-01-01" SVN="2721742198" employee_id="employee_00006" country_id="USA" >
+		<address zip_code="0815" city_name="Washington DC" street_name="Levis St NE" country_id="USA"/>
+		<phone phone_no="09 999 888 777"/>
+		<email email_addr="willy.from@west-philly.com"/>
+		<employment hours="20" start_date="1980-01-01" employment_id="employment_0000000006" iban="US37891249421" bic="GENODES1TET" prof_id="profession_00005" vacation_hours="50">
+			<time_record time_record_id="time_record_0000000030" l_timestamp="2017-12-20T08:00:00" f_timestamp="2017-12-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000031" l_timestamp="2017-12-21T08:00:00" f_timestamp="2017-12-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000032" l_timestamp="2017-12-22T08:00:00" f_timestamp="2017-12-22T16:00:00"/>
+			<time_record time_record_id="time_record_0000000033" l_timestamp="2017-12-23T08:00:00" f_timestamp="2017-12-23T16:00:00"/>
+			<time_record time_record_id="time_record_0000000034" l_timestamp="2017-12-24T08:00:00" f_timestamp="2017-12-24T16:00:00"/>
+			<time_record time_record_id="time_record_0000000035" l_timestamp="2017-12-25T08:00:00" f_timestamp="2017-12-25T16:00:00"/>
+			<time_record time_record_id="time_record_0000000036" l_timestamp="2017-12-26T08:00:00" f_timestamp="2017-12-26T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee fname="Method" lname="Man" birthdate="19750-01-01" SVN="1721742198" employee_id="employee_00007" country_id="USA" >
+		<address zip_code="0815" city_name="New York City" street_name="Atlantic Ave" country_id="USA"/>
+		<phone phone_no="09 999 888 111"/>
+		<email email_addr="method.man@wu-tang-clan.gov"/>
+	</employee>
+	
+	<employee employee_id="employee_00008" SVN="2410240192" fname="Alexander" lname="Zeyer" birthdate="1993-04-27" country_id="GER">
+		<address street_name="Kehlerau 1a" city_name="Dornbirn" zip_code="6850" country_id="AUT"/>
+		<phone phone_no="0664 889900"/>
+		<email email_addr="alexander.zeyer@students.fhv.at"/>
+		<employment employment_id="employment_0000000008" prof_id="profession_00005" start_date="2017-12-20" end_date="2017-12-21" hours="8.00" vacation_hours="3.00" iban="AT46238412452584" bic="RVVGAT2B427">
+			<time_record time_record_id="time_record_0000000037" f_timestamp="2017-12-20T08:00:00" l_timestamp="2017-12-20T16:00:00" comment=""/>
+		</employment>
+	</employee>
+	
+	<employee lname="Norris" birthdate="1990-04-05" SVN="2410240192" employee_id="employee_00009" country_id="GER" fname="Chuck">
+		<address zip_code="2442" city_name="Wademünde" street_name="Flussstraße 3" country_id="GER"/>
+		<address zip_code="2233" city_name="BERN" street_name="DIE GERADE 3" country_id="CHE"/>
+		<phone phone_no="0399 2253332"/>
+		<phone phone_no="3321 4555233"/>
+		<email email_addr="gmail@chucknorris.com"/>
+		<employment hours="56" start_date="2017-12-20" employment_id="employment_0000000009" iban="AT46238412452584" bic="RVVGAT2B427" prof_id="profession_00001" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000038" l_timestamp="2017-12-20T08:00:00" f_timestamp="2017-12-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000039" l_timestamp="2017-12-21T08:00:00" f_timestamp="2017-12-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000040" l_timestamp="2017-12-22T08:00:00" f_timestamp="2017-12-22T16:00:00"/>
+			<time_record time_record_id="time_record_0000000041" l_timestamp="2017-12-23T08:00:00" f_timestamp="2017-12-23T16:00:00"/>
+			<time_record time_record_id="time_record_0000000042" l_timestamp="2017-12-24T08:00:00" f_timestamp="2017-12-24T16:00:00"/>
+			<time_record time_record_id="time_record_0000000043" l_timestamp="2017-12-25T08:00:00" f_timestamp="2017-12-25T16:00:00"/>
+			<time_record time_record_id="time_record_0000000044" l_timestamp="2017-12-26T08:00:00" f_timestamp="2017-12-26T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Bond" birthdate="1993-02-05" SVN="2410240192" employee_id="employee_00010" country_id="VGB" fname="James">
+		<address zip_code="2542" city_name="Bulm" street_name="Southstreet 3" country_id="AZE"/>
+		<address zip_code="1111" city_name="BERN" street_name="DIE KURVE 7" country_id="CHE"/>
+		<phone phone_no="0339 2552332"/>
+		<email email_addr="James@Bond.com"/>
+		<employment hours="56" start_date="2017-12-20" employment_id="employment_0000000010" iban="AT12345678901234" bic="RVVGAT2B436" prof_id="profession_00006" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000045" l_timestamp="2017-12-20T08:00:00" f_timestamp="2017-12-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000046" l_timestamp="2017-12-21T08:00:00" f_timestamp="2017-12-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000047" l_timestamp="2017-12-22T08:00:00" f_timestamp="2017-12-22T16:00:00"/>
+			<time_record time_record_id="time_record_0000000048" l_timestamp="2017-12-23T08:00:00" f_timestamp="2017-12-23T16:00:00"/>
+			<time_record time_record_id="time_record_0000000049" l_timestamp="2017-12-24T08:00:00" f_timestamp="2017-12-24T16:00:00"/>
+			<time_record time_record_id="time_record_0000000050" l_timestamp="2017-12-25T08:00:00" f_timestamp="2017-12-25T16:00:00"/>
+			<time_record time_record_id="time_record_0000000051" l_timestamp="2017-12-26T08:00:00" f_timestamp="2017-12-26T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee employee_id="employee_00011" SVN="2410240237" fname="Barack" lname="Obama" birthdate="1993-04-27" country_id="GER">
+		<address street_name="Kehlerau 1a" city_name="Dornbirn" zip_code="6850" country_id="AUT"/>
+		<phone phone_no="0664 889900"/>
+		<email email_addr="barack.obama@fhv.at"/>
+		<employment employment_id="employment_0000000011" prof_id="profession_00003" start_date="2017-12-20" end_date="2017-12-21" hours="8.00" vacation_hours="3.00" iban="AT46238412452584" bic="RVVGAT2B427">
+			<time_record time_record_id="time_record_0000000052" f_timestamp="2017-12-20T08:00:00" l_timestamp="2017-12-20T16:00:00" comment=""/>
+		</employment>
+	</employee>
+	
+	<employee lname="Muster" birthdate="1991-02-05" SVN="8740240192" employee_id="employee_00012" country_id="CHE" fname="Hans">
+		<address zip_code="8748" city_name="Mulb" street_name="West 1" country_id="CHE"/>
+		<phone phone_no="0660 4857854"/>
+		<email email_addr="Muster.Hans@gmail.com"/>
+		<employment hours="30" start_date="2017-12-22" employment_id="employment_0000000012" iban="AT12874578901234" bic="RVVGAT2B433" prof_id="profession_00005" vacation_hours="35">
+			<time_record time_record_id="time_record_0000000053" l_timestamp="2017-12-20T08:00:00" f_timestamp="2017-12-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000054" l_timestamp="2017-12-21T08:00:00" f_timestamp="2017-12-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000055" l_timestamp="2017-12-22T08:00:00" f_timestamp="2017-12-22T16:00:00"/>
+			<time_record time_record_id="time_record_0000000056" l_timestamp="2017-12-23T08:00:00" f_timestamp="2017-12-23T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Schwegler" birthdate="1993-02-10" SVN="5510240192" employee_id="employee_00013" country_id="BEL" fname="Dieter">
+		<address zip_code="1121" city_name="Gent" street_name="Kurve 93" country_id="BEL"/>
+		<phone phone_no="0339 2588332"/>
+		<email email_addr="Dieter101@gmail.com"/>
+		<employment hours="50" start_date="2016-12-20" employment_id="employment_0000000013" iban="AT15545678901234" bic="RVVGAT5B438" prof_id="profession_00002" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000057" l_timestamp="2016-12-20T08:00:00" f_timestamp="2016-12-20T16:00:00"/>
+		</employment>
+	</employee>
+	
+	
+	<employee lname="Dietrich" birthdate="1990-10-08" SVN="5811540192" employee_id="employee_00014" country_id="AUT" fname="Ursula">
+		<address zip_code="2545" city_name="Bregenz" street_name="Kaiserstraße 42" country_id="AUT"/>
+		<phone phone_no="0664 8552332"/>
+		<email email_addr="Bregenz.Dietrich@gmail.com"/>
+		<employment hours="40" start_date="2017-01-20" employment_id="employment_0000000014" iban="AT15345678901234" bic="RVVGAT8B486" prof_id="profession_00005" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000058" l_timestamp="2017-01-20T08:00:00" f_timestamp="2017-01-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000059" l_timestamp="2017-01-21T08:00:00" f_timestamp="2017-01-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000060" l_timestamp="2017-01-22T08:00:00" f_timestamp="2017-01-22T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Rock" birthdate="1980-10-08" SVN="5812540192" employee_id="employee_00015" country_id="AUT" fname="The">
+		<address zip_code="3333" city_name="Bregenz" street_name="Kaiserstraße 50" country_id="AUT"/>
+		<phone phone_no="0664 8892332"/>
+		<email email_addr="TheRock@gmail.com"/>
+		<employment hours="45" start_date="2017-01-20" employment_id="employment_0000000015" iban="AT15345678901234" bic="RVVGAT8B486" prof_id="profession_00006" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000061" l_timestamp="2017-06-20T08:00:00" f_timestamp="2017-06-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000062" l_timestamp="2017-06-21T08:00:00" f_timestamp="2017-06-21T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Bieber" birthdate="1970-10-08" SVN="5865540192" employee_id="employee_00016" country_id="GER" fname="Justin">
+		<address zip_code="1202" city_name="Ulm" street_name="Die Kugel 12" country_id="GER"/>
+		<phone phone_no="0664 8557732"/>
+		<email email_addr="Bieber@gmail.com"/>
+		<employment hours="20" start_date="2017-09-20" employment_id="employment_0000000016" iban="AT15345666601234" bic="RVVGAT2B426" prof_id="profession_00006" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000063" l_timestamp="2017-10-15T08:00:00" f_timestamp="2017-01-15T16:00:00"/>
+			<time_record time_record_id="time_record_0000000064" l_timestamp="2017-10-16T08:00:00" f_timestamp="2017-01-16T16:00:00"/>
+			<time_record time_record_id="time_record_0000000065" l_timestamp="2017-10-17T08:00:00" f_timestamp="2017-01-17T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="E" birthdate="1999-10-08" SVN="5821580192" employee_id="employee_00017" country_id="AUT" fname="Wall">
+		<address zip_code="8784" city_name="Bregenz" street_name="Moos 2" country_id="AUT"/>
+		<phone phone_no="0660 8558742"/>
+		<email email_addr="Wall@gmail.com"/>
+		<employment hours="40" start_date="2017-01-28" employment_id="employment_0000000017" iban="AT12245678901234" bic="RVVGAT8B333" prof_id="profession_00001" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000066" l_timestamp="2017-05-20T08:00:00" f_timestamp="2017-01-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000067" l_timestamp="2017-05-21T08:00:00" f_timestamp="2017-01-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000068" l_timestamp="2017-05-22T08:00:00" f_timestamp="2017-01-22T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Schiller" birthdate="1985-10-10" SVN="5811548792" employee_id="employee_00018" country_id="AUT" fname="Peter">
+		<address zip_code="2587" city_name="Bregenz" street_name="Back 134" country_id="AUT"/>
+		<phone phone_no="0664 8552992"/>
+		<email email_addr="Back@gmail.com"/>
+		<employment hours="40" start_date="2017-01-29" employment_id="employment_0000000018" iban="AT15345678902201" bic="RVVGAT8B000" prof_id="profession_00003" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000069" l_timestamp="2017-02-20T08:00:00" f_timestamp="2017-01-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000070" l_timestamp="2017-02-21T08:00:00" f_timestamp="2017-01-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000071" l_timestamp="2017-02-22T08:00:00" f_timestamp="2017-01-22T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Marley" birthdate="1990-11-08" SVN="5811540002" employee_id="employee_00019" country_id="GER" fname="Bob">
+		<address zip_code="0000" city_name="Ulm" street_name="Kurve 12" country_id="GER"/>
+		<phone phone_no="0339 8552332"/>
+		<email email_addr="BobTheKing@gmail.com"/>
+		<employment hours="10" start_date="2017-01-01" employment_id="employment_0000000019" iban="AT00005678901234" bic="RVVGAT8B483" prof_id="profession_00005" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000072" l_timestamp="2017-01-20T08:00:00" f_timestamp="2017-01-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000073" l_timestamp="2017-01-21T08:00:00" f_timestamp="2017-01-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000074" l_timestamp="2017-01-22T08:00:00" f_timestamp="2017-01-22T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Dietrich" birthdate="1992-10-08" SVN="0001540192" employee_id="employee_00020" country_id="GER" fname="Bonnhöfer">
+		<address zip_code="5487" city_name="München" street_name="Weiden 1123" country_id="GER"/>
+		<phone phone_no="0660 8500332"/>
+		<email email_addr="Bonnhoefer@gmail.com"/>
+		<employment hours="40" start_date="2017-05-20" employment_id="employment_0000000020" iban="AT11145678901234" bic="RVVGAT8B111" prof_id="profession_00005" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000075" l_timestamp="2017-05-20T08:00:00" f_timestamp="2017-01-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000076" l_timestamp="2017-06-21T08:00:00" f_timestamp="2017-01-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000077" l_timestamp="2017-07-22T08:00:00" f_timestamp="2017-01-22T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<employee lname="Huber" birthdate="1997-10-08" SVN="5810940192" employee_id="employee_00021" country_id="AUT" fname="Ben">
+		<address zip_code="78947" city_name="Bregenz" street_name="Wasserstraße 12" country_id="AUT"/>
+		<phone phone_no="0660 8552002"/>
+		<email email_addr="Huber.Benh@gmail.com"/>
+		<employment hours="40" start_date="2017-01-20" employment_id="employment_0000000021" iban="AT15345678901234" bic="RVVGAT8B486" prof_id="profession_00002" vacation_hours="40">
+			<time_record time_record_id="time_record_0000000078" l_timestamp="2017-01-20T08:00:00" f_timestamp="2017-01-20T16:00:00"/>
+			<time_record time_record_id="time_record_0000000079" l_timestamp="2017-01-21T08:00:00" f_timestamp="2017-01-21T16:00:00"/>
+			<time_record time_record_id="time_record_0000000080" l_timestamp="2017-01-22T08:00:00" f_timestamp="2017-01-22T16:00:00"/>
+		</employment>
+	</employee>
+	
+	<country country_id="AUT" country_name="Austria" nationality="austrian"/>
+	<country country_id="AUS" country_name="Australien" nationality="australisch"/>
+	<country country_id="AZE" country_name="Aserbaidschan" nationality="aserbaidschaner"/>
+	<country country_id="BEL" country_name="Belgien" nationality="belgisch"/>
+	<country country_id="BRA" country_name="Brasilien" nationality="brasilianisch"/>
+	<country country_id="GER" country_name="Deutschland" nationality="deutsch"/>
+	<country country_id="VGB" country_name="Britische Jungferninseln" nationality="britisch jungfer"/>
+	<country country_id="CHE" country_name="Schweiz" nationality="schweizer"/>
+	<country country_id="USA" country_name="United States of America" nationality="us american"/>
+	
+	<profession prof_id="profession_00001" profession="KellnerIn"/>
+	<profession prof_id="profession_00002" profession="BarkeeperIn"/>
+	<profession prof_id="profession_00003" profession="Reinigungsfachkraft"/>
+	<profession prof_id="profession_00004" profession="Koch"/>
+	<profession prof_id="profession_00005" profession="Tänzerin"/>
+	<profession prof_id="profession_00006" profession="Hausmeister"/>
+</management>
