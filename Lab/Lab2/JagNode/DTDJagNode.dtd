@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT DBJagNode (Order*, Roll*, Machine*)>
+
+<!ELEMENT Order (OrderStatus, Stripe*)>
+<!ATTLIST Order OrderID ID #REQUIRED>
+<!ATTLIST Order PositionID CDATA #REQUIRED >
+<!ATTLIST Order FabricType CDATA #REQUIRED>
+<!ATTLIST Order Length CDATA #REQUIRED>
+<!ATTLIST Order Width CDATA #REQUIRED>
+<!ATTLIST Order CustomData CDATA #REQUIRED>
+<!ATTLIST Order CreationTime CDATA #IMPLIED>
+<!ATTLIST Order CutStartTime CDATA #IMPLIED>
+<!ATTLIST Order ProcessStartTime CDATA #IMPLIED>
+<!ATTLIST Order FinishTime CDATA #IMPLIED>
+<!ATTLIST Order IdentityLevel CDATA #REQUIRED>
+<!ATTLIST Order Status CDATA #REQUIRED>
+
+<!ELEMENT OrderStatus EMPTY>
+<!ATTLIST OrderStatus Status CDATA #REQUIRED> 
+
+<!ELEMENT Stripe (CutDefinition, StripeStatus)>
+<!ATTLIST Stripe StripeID ID #REQUIRED>
+<!ATTLIST Stripe Width CDATA #REQUIRED>
+<!ATTLIST Stripe CustomData CDATA #REQUIRED>
+<!ATTLIST Stripe CutType CDATA #REQUIRED>
+<!ATTLIST Stripe Status CDATA #REQUIRED>
+
+<!ELEMENT CutDefinition EMPTY>
+<!ATTLIST CutDefinition CutPositionWidth CDATA #REQUIRED>
+<!ATTLIST CutDefinition RollenID IDREF #REQUIRED>
+<!ATTLIST CutDefinition MachineID IDREF #REQUIRED>
+
+<!ELEMENT Machine EMPTY>
+<!ATTLIST Machine MachineID ID #REQUIRED>
+<!ATTLIST Machine Name CDATA #REQUIRED>
+<!ATTLIST Machine Type CDATA #REQUIRED>
+
+<!ELEMENT StripeStatus EMPTY>
+<!ATTLIST StripeStatus Status CDATA #REQUIRED>
+
+<!ELEMENT Roll (ArticleNo, RollStatus)>
+<!ATTLIST Roll RollID ID #REQUIRED>	
+<!ATTLIST Roll Length CDATA #REQUIRED>
+<!ATTLIST Roll ChargenID CDATA #REQUIRED>
+<!ATTLIST Roll CustomData CDATA #REQUIRED>
+<!ATTLIST Roll ArticleNo CDATA #REQUIRED>
+<!ATTLIST Roll RollStatus CDATA #REQUIRED>
+
+<!ELEMENT ArticleNo (FabricType)>
+<!ATTLIST ArticleNo FabricType ID #REQUIRED>
+<!ATTLIST ArticleNo ArticleNo CDATA #REQUIRED>
+<!ATTLIST ArticleNo Width CDATA #REQUIRED>
+
+<!ELEMENT FabricType EMPTY>
+<!ATTLIST FabricType Type IDREF #REQUIRED>
+<!ATTLIST FabricType Name CDATA #REQUIRED>
+<!ATTLIST FabricType Picture CDATA #REQUIRED>
+
+<!ELEMENT RollStatus EMPTY>
+<!ATTLIST RollStatus Status CDATA #REQUIRED>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DBJagNode SYSTEM "DTDJagNode.dtd">
+
+<DBJagNode>
+
+	<Order OrderID="O_0001" PositionID="0" FabricType="smt_dblue"
+		Length="2000" Width="2000" CustomData="{}" CreationTime="11.01.2018-15:08"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S10" Width="2000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R1"
+				MachineID="SC01" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Order OrderID="O_0002" PositionID="1" FabricType="soltis_hpink"
+		Length="3500" Width="1300" CustomData="{}" CreationTime="12.01.2018-19:35"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S1" Width="300" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R2"
+				MachineID="SC02" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+		<Stripe StripeID="S2" Width="1000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R2"
+				MachineID="SC02" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Order OrderID="O_0003" PositionID="0" FabricType="morli_white"
+		Length="60000" Width="6000" CustomData="{}" CreationTime="10.10.2017-06:47"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S3" Width="1000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R3"
+				MachineID="SC03" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+		<Stripe StripeID="S4" Width="1000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R3"
+				MachineID="SC03" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+		<Stripe StripeID="S5" Width="2000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R3"
+				MachineID="SC03" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+		<Stripe StripeID="S6" Width="2000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R3"
+				MachineID="SC03" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Order OrderID="O_0004" PositionID="0" FabricType="meri_gold"
+		Length="1000" Width="5000" CustomData="{}" CreationTime="13.12.2017-22:24"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S7" Width="5000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R4"
+				MachineID="SC04" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Order OrderID="O_0005" PositionID="0" FabricType="triss_black"
+		Length="1100" Width="10000" CustomData="{}" CreationTime="07.01.2018-07:08"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S8" Width="2500" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R5"
+				MachineID="SC05" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+		<Stripe StripeID="S9" Width="2500" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R5"
+				MachineID="SC05" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+		<Stripe StripeID="S8.1" Width="2500" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R5"
+				MachineID="SC05" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+		<Stripe StripeID="S9.1" Width="2500" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R5"
+				MachineID="SC05" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Order OrderID="O_0006" PositionID="0" FabricType="meri_gold"
+		Length="9000" Width="1000" CustomData="{}" CreationTime="04.04.2017-16:44"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S11" Width="1000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R4"
+				MachineID="SC04" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Order OrderID="O_0007" PositionID="0" FabricType="soltis_hpink"
+		Length="2000" Width="2000" CustomData="{}" CreationTime="07.12.2017-03:57"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S12" Width="2000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R4"
+				MachineID="SC02" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Order OrderID="O_0008" PositionID="0" FabricType="smt_dblue"
+		Length="2000" Width="4000" CustomData="{}" CreationTime="09.09.2017-19:09"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S13" Width="2000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R1"
+				MachineID="SC01" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+		<Stripe StripeID="S13.1" Width="2000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R1"
+				MachineID="SC03" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Order OrderID="O_0009" PositionID="0" FabricType="smt_dblue"
+		Length="2000" Width="2000" CustomData="{}" CreationTime="17.12.2017-15:46"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S14" Width="2000" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R1"
+				MachineID="SC01" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Order OrderID="O_0010" PositionID="0" FabricType="smt_hblue"
+		Length="2000" Width="3000" CustomData="{}" CreationTime="11.01.2018-15:08"
+		CutStartTime="" ProcessStartTime="" FinishTime="" IdentityLevel="{}"
+		Status="NEW">
+		<OrderStatus Status="NEW" />
+		<Stripe StripeID="S15" Width="1500" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R1"
+				MachineID="SC01" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+		<Stripe StripeID="S16" Width="1500" CustomData="{}" CutType="{}"
+			Status="NEW">
+			<CutDefinition CutPositionWidth="0" RollenID="R1"
+				MachineID="SC01" />
+			<StripeStatus Status="NEW" />
+		</Stripe>
+	</Order>
+
+	<Roll RollID="R6" Length="400000" ChargenID="CID4412" CustomData="{}"
+		ArticleNo="R39" RollStatus="NEW">
+		<ArticleNo ArticleNo="R39" FabricType="smt_hblue" Width="5000">
+			<FabricType Type="smt_dblue" Name="Samt Hellblau" Picture="" />
+		</ArticleNo>
+		<RollStatus Status="NEW" />
+	</Roll>
+
+	<Roll RollID="R1" Length="150000" ChargenID="CID6412" CustomData="{}"
+		ArticleNo="R42" RollStatus="NEW">
+		<ArticleNo ArticleNo="R42" FabricType="smt_dblue" Width="4000">
+			<FabricType Type="smt_dblue" Name="Samt Dunkelblau"
+				Picture="" />
+		</ArticleNo>
+		<RollStatus Status="NEW" />
+	</Roll>
+
+	<Roll RollID="R2" Length="157500" ChargenID="CID6789" CustomData="{}"
+		ArticleNo="T48" RollStatus="NEW">
+		<ArticleNo ArticleNo="T48" FabricType="soltis_hpink" Width="1500">
+			<FabricType Type="soltis_hpink" Name="Soltis Hotpink"
+				Picture="" />
+		</ArticleNo>
+		<RollStatus Status="NEW" />
+	</Roll>
+
+	<Roll RollID="R3" Length="200000" ChargenID="CID3456" CustomData="{}"
+		ArticleNo="M27" RollStatus="NEW">
+		<ArticleNo ArticleNo="M27" FabricType="morli_white" Width="6500">
+			<FabricType Type="morli_white" Name="Morli White" Picture="" />
+		</ArticleNo>
+		<RollStatus Status="NEW" />
+	</Roll>
+
+	<Roll RollID="R4" Length="400000" ChargenID="CID8900" CustomData="{}"
+		ArticleNo="W69" RollStatus="NEW">
+		<ArticleNo ArticleNo="W69" FabricType="meri_gold" Width="5500">
+			<FabricType Type="meri_gold" Name="Meri Gold" Picture="" />
+		</ArticleNo>
+		<RollStatus Status="NEW" />
+	</Roll>
+
+	<Roll RollID="R5" Length="400000" ChargenID="CID6777" CustomData="{}"
+		ArticleNo="F99" RollStatus="NEW">
+		<ArticleNo ArticleNo="F99" FabricType="triss_black" Width="5000">
+			<FabricType Type="triss_black" Name="Triss Black" Picture="" />
+		</ArticleNo>
+		<RollStatus Status="NEW" />
+	</Roll>
+
+	<Machine MachineID="SC01" Name="ScreenCut 1" Type="SC" />
+	<Machine MachineID="SC02" Name="ScreenCut 2" Type="SC" />
+	<Machine MachineID="SC03" Name="ScreenCut 3" Type="SC" />
+	<Machine MachineID="SC04" Name="ScreenCut 4" Type="SC" />
+	<Machine MachineID="SC05" Name="ScreenCut 5" Type="SC" />
+	<Machine MachineID="SC06" Name="ScreenCut 6" Type="SC" />
+
+
+</DBJagNode>
