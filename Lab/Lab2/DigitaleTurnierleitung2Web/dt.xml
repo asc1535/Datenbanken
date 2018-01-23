@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE digitale_turnierleitung SYSTEM "dt.dtd">
+
+<digitale_turnierleitung>
+	
+	
+	<tournament id="tournament-1" date="2018-01-01">
+		
+		<round id="round-1"  round-number="1">
+			<play-group id="group-1" group-name="A">
+				<match 
+					id="match-1" 
+					team-1-id="team-1" 
+					team-2-id="team-2" 
+					start-time="08:45:00" 
+					lane="1"/>
+					
+				<match 
+					id="match-2" 
+					team-1-id="team-3" 
+					team-2-id="team-4" 
+					start-time="09:00:00" 
+					lane="1"/>
+					
+				<match 
+					lane="1" 
+					team-1-id="team-1" 
+					start-time="09:15:00" 
+					team-2-id="team-3" 
+					id="match-3"
+				/>
+				
+				<match 
+					lane="1" 
+					team-1-id="team-2" 
+					start-time="09:30:00" 
+					team-2-id="team-4" 
+					id="match-4"
+				/>
+					
+			</play-group>
+			
+			<play-group id="group-2" group-name="B">
+				<match 
+					lane="2" 
+					team-1-id="team-5" 
+					start-time="08:45:00" 
+					team-2-id="team-6" 
+					id="match-5"
+				/>
+				
+				<match 
+					lane="2" 
+					team-1-id="team-7" 
+					start-time="09:00:00" 
+					team-2-id="team-8" 
+					id="match-6"
+				/>
+				
+				<match 
+					lane="2" 
+					team-1-id="team-5" 
+					start-time="09:15:00" 
+					team-2-id="team-7" 
+					id="match-7"
+				/>
+				
+				<match 
+					lane="2" 
+					team-1-id="team-6" 
+					start-time="09:30:00" 
+					team-2-id="team-8" 
+					id="match-8"
+				/>
+			</play-group>
+			
+			<play-group id="group-3" group-name="C">
+				<match 
+					lane="3" 
+					team-1-id="team-1" 
+					start-time="09:45:00" 
+					team-2-id="team-5" 
+					id="match-9"
+				/>
+				
+				<match 
+					lane="3" 
+					team-1-id="team-2" 
+					start-time="10:00:00" 
+					team-2-id="team-6" 
+					id="match-10"
+				/>
+				
+				<match 
+					lane="3" 
+					team-1-id="team-3" 
+					start-time="10:15:00" 
+					team-2-id="team-7" 
+					id="match-11"
+				/>
+				
+				<match 
+					lane="3" 
+					team-1-id="team-4" 
+					start-time="10:30:00" 
+					team-2-id="team-8" 
+					id="match-12"
+				/>
+			</play-group>
+			
+		</round>
+		
+		<round id="round-2" round-number="2">
+			
+			<play-group group-name="A" id="group-4">
+				<match 
+					lane="4" 
+					team-1-id="team-1" 
+					start-time="11:00:00" 
+					team-2-id="team-3" 
+					id="match-13"
+				/>
+				
+				<match 
+					lane="4" 
+					team-1-id="team-1" 
+					start-time="11:15:00" 
+					team-2-id="team-2" 
+					id="match-14"
+				/>
+				
+				<match 
+					lane="4" 
+					team-1-id="team-2" 
+					start-time="11:30::00" 
+					team-2-id="team-3" 
+					id="match-15"
+				/> 
+			</play-group>
+			
+			<play-group group-name="B" id="group-5">
+				<match 
+					lane="2" 
+					team-1-id="team-5" 
+					start-time="11:00:00" 
+					team-2-id="team-7" 
+					id="match-16"
+				/>
+				
+				<match 
+					lane="2" 
+					team-1-id="team-8" 
+					start-time="11:15:00" 
+					team-2-id="team-7" 
+					id="match-17"
+				/>
+				
+				<match 
+					lane="2" 
+					team-1-id="team-5" 
+					start-time="11:30:00" 
+					team-2-id="team-8" 
+					id="match-18"
+				/>
+			</play-group>
+			
+		</round>
+		
+		<round id="round-3" round-number="3">
+			<play-group group-name="A" id="group-6">
+				<match 
+					lane="1" 
+					team-1-id="team-1" 
+					start-time="12:00:00" 
+					team-2-id="team-8" 
+					id="match-19"
+				/>
+			</play-group>
+		</round>
+		
+		
+		<team id="team-1" teamname="Mürlehock-1" leader-id="player-1">
+			<player 
+				id ="player-1" 
+				firstname="Sarah" 
+				lastname="Handlos"
+			/>
+				
+			<player 
+				id ="player-2" 
+				firstname="Andreas" 
+				lastname="Fritz"
+			/>
+			
+			<player 
+				id ="player-3" 
+				firstname="Marcel" 
+				lastname="Hanser"
+			/>
+			
+			<player 
+				id ="player-4" 
+				firstname="Stefan" 
+				lastname="Haid"
+			/>
+			
+		</team>
+		
+		<team id="team-2" teamname="Feuerwehr-1" leader-id="player-5">
+			<player 
+				id ="player-5" 
+				firstname="Marcel" 
+				lastname="Gassner"
+			/>
+			
+			<player 
+				id ="player-6" 
+				firstname="Thomas" 
+				lastname="Mock"
+			/>
+			
+			<player 
+				id ="player-7" 
+				firstname="Marco" 
+				lastname="Hartmann"
+			/>
+			
+			<player 
+				id ="player-8" 
+				firstname="Mathias" 
+				lastname="Hartmann"
+			/>
+		</team>
+		
+		<team id="team-3" teamname="Oldies" leader-id="player-9">
+			<player 
+				id ="player-9" 
+				firstname="Lisi" 
+				lastname="Schreiber"
+			/>
+			
+			<player 
+				id ="player-10" 
+				firstname="Werner" 
+				lastname="Schreiber"
+			/>
+			
+			<player 
+				id ="player-11" 
+				firstname="Adolf" 
+				lastname="Bitschnau"
+			/>
+			
+			<player 
+				id ="player-12" 
+				firstname="Rosi" 
+				lastname="Bitschnau"
+			/>
+		</team>
+		
+		<team id="team-4" teamname="Feuerwehr-Jugend" leader-id="player-13">
+			<player 
+				id ="player-13" 
+				firstname="Marie" 
+				lastname="Hebein"
+			/>
+			
+			<player 
+				id ="player-14" 
+				firstname="Lena" 
+				lastname="Riedl"
+			/>
+			
+			<player 
+				id ="player-15" 
+				firstname="Valentina" 
+				lastname="Walch"
+			/>
+				
+			<player 
+				id ="player-16" 
+				firstname="Kennined" 
+				lastname="Walser"
+			/>
+		</team>
+		
+		<team id="team-5" teamname="Musikoldies" leader-id="player-17">
+			<player 
+				id ="player-17" 
+				firstname="Marie" 
+				lastname="Hebein"
+			/>
+			
+			<player 
+				id ="player-18" 
+				firstname="Lena" 
+				lastname="Riedl"
+			/>
+			
+			<player 
+				id ="player-19" 
+				firstname="Valentina" 
+				lastname="Walch"
+			/>
+			
+			<player 
+				id ="player-20" 
+				firstname="Kennined" 
+				lastname="Walser"
+			/>
+		</team>
+		
+		<team teamname="Sunshine" leader-id="player-21" id="team-6">
+			<player 
+				lastname="Frohner" 
+				firstname="Cindy" 
+				id="player-21"
+			/>
+			
+			<player 
+				lastname="Franz" 
+				firstname="Felicitas" 
+				id="player-22"
+			/>
+			
+			<player 
+				lastname="Luger" 
+				firstname="Bianca" 
+				id="player-23"
+			/>
+			
+			<player 
+				lastname="Häusle" 
+				firstname="Carina" 
+				id="player-24"
+			/>
+		</team>
+		
+		<team teamname="Mürlehock-2" leader-id="player-25" id="team-7">
+			<player 
+				lastname="Fritz" 
+				firstname="Renate" 
+				id="player-25"
+			/>
+			
+			<player 
+				lastname="Hebein" 
+				firstname="Renate" 
+				id="player-26"
+			/>
+			
+			<player 
+				lastname="Bachmann" 
+				firstname="Hannelore" 
+				id="player-27"
+			/>
+			
+			<player 
+				lastname="Riedl" 
+				firstname="Micha" 
+				id="player-28"
+			/>
+		</team>
+		
+		<team teamname="Musikladies" leader-id="player-30" id="team-8">
+			<player 
+				lastname="Wenter"
+				firstname="Andrea" 
+				id="player-29"
+			/>
+			
+			<player 
+				lastname="Walch" 
+				firstname="Conny" 
+				id="player-30"
+			/>
+			
+			<player 
+				lastname="Bachmann" 
+				firstname="Sabine" 
+				id="player-31"
+			/>
+			
+			<player 
+				lastname="Vierhauser" 
+				firstname="Amelie" 
+				id="player-32"
+			/>
+		</team>
+		
+	
+	</tournament>
+	
+</digitale_turnierleitung>

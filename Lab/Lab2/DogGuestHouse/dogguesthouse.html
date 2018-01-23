@@ -1,0 +1,877 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Dog Guest House</title>
+</head>
+<body>
+<h1>Dog Guest House</h1>
+<div class="block">
+<h2>Customer Table</h2>
+<table id="customerTable">
+<thead>
+<tr>
+<th colspan="2">First Name</th><th colspan="2">Last Name</th><th colspan="2">Telephone Number</th><th colspan="2">Address</th><th colspan="2">City</th><th colspan="2">Postal Code</th>
+</tr>
+</thead>
+<tbody>
+<tr onclick="location.href='#customer-id-1'">
+<td colspan="2">Hans</td><td colspan="2">Gruber</td><td colspan="2">0666 6942069</td><td colspan="2">Hauptstra&szlig;e 1</td><td colspan="2">Dornbirn</td><td colspan="2">6850</td>
+</tr>
+<tr onclick="location.href='#customer-id-2'">
+<td colspan="2">Simon</td><td colspan="2">Keckeis</td><td colspan="2">0699 1111111</td><td colspan="2">Reinstra&szlig;e 1</td><td colspan="2">Feldkirch</td><td colspan="2">6800</td>
+</tr>
+<tr onclick="location.href='#customer-id-3'">
+<td colspan="2">Paul</td><td colspan="2">Mair</td><td colspan="2">0666 6555345</td><td colspan="2">Hauptstra&szlig;e 2</td><td colspan="2">Rankweil</td><td colspan="2">6830</td>
+</tr>
+<tr onclick="location.href='#customer-id-4'">
+<td colspan="2">Anna</td><td colspan="2">M&uuml;ller</td><td colspan="2">0555 6555345</td><td colspan="2">Feldweg 2</td><td colspan="2">Bludenz</td><td colspan="2">6700</td>
+</tr>
+<tr onclick="location.href='#customer-id-5'">
+<td colspan="2">Maria</td><td colspan="2">Egger</td><td colspan="2">0444 656565</td><td colspan="2">Feldweg 4</td><td colspan="2">Dornbirn</td><td colspan="2">6850</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="block">
+<h2>Customers</h2>
+<div class="customerEntry">
+<h3 id="customer-id-1" xml:space="preserve">
+				Hans Gruber
+			</h3>
+<table class="customer">
+<thead>
+<tr>
+<th>Information</th><th>Dogs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+								Telephone Number: 0666 6942069<br>
+								Address: Hauptstra&szlig;e 1<br>
+								City: Dornbirn<br>
+								Postal Code: 6850</p>
+</td><td>
+<ul>
+<li>
+<a href="#dog-id-1">Fido - Border-Collie</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="customerEntry">
+<h3 id="customer-id-2" xml:space="preserve">
+				Simon Keckeis
+			</h3>
+<table class="customer">
+<thead>
+<tr>
+<th>Information</th><th>Dogs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+								Telephone Number: 0699 1111111<br>
+								Address: Reinstra&szlig;e 1<br>
+								City: Feldkirch<br>
+								Postal Code: 6800</p>
+</td><td>
+<ul>
+<li>
+<a href="#dog-id-2">Muffin - Labrador</a>
+</li>
+<li>
+<a href="#dog-id-3">Princess - Zwergpinscher</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="customerEntry">
+<h3 id="customer-id-3" xml:space="preserve">
+				Paul Mair
+			</h3>
+<table class="customer">
+<thead>
+<tr>
+<th>Information</th><th>Dogs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+								Telephone Number: 0666 6555345<br>
+								Address: Hauptstra&szlig;e 2<br>
+								City: Rankweil<br>
+								Postal Code: 6830</p>
+</td><td>
+<ul>
+<li>
+<a href="#dog-id-4">Felix - Dackel</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="customerEntry">
+<h3 id="customer-id-4" xml:space="preserve">
+				Anna M&uuml;ller
+			</h3>
+<table class="customer">
+<thead>
+<tr>
+<th>Information</th><th>Dogs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+								Telephone Number: 0555 6555345<br>
+								Address: Feldweg 2<br>
+								City: Bludenz<br>
+								Postal Code: 6700</p>
+</td><td>
+<ul>
+<li>
+<a href="#dog-id-5">Balu - Neufundl&auml;nder</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="customerEntry">
+<h3 id="customer-id-5" xml:space="preserve">
+				Maria Egger
+			</h3>
+<table class="customer">
+<thead>
+<tr>
+<th>Information</th><th>Dogs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+								Telephone Number: 0444 656565<br>
+								Address: Feldweg 4<br>
+								City: Dornbirn<br>
+								Postal Code: 6850</p>
+</td><td>
+<ul>
+<li>
+<a href="#dog-id-6">Kira - Mops</a>
+</li>
+<li>
+<a href="#dog-id-7">Lucy - Terrier</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="block">
+<h2>Dog Information</h2>
+<div class="dog">
+<h3 id="dog-id-1">Fido</h3>
+<p>Information:</p>
+<ul>
+<li>Owner:<a href="#customer-id-1" xml:space="preserve">
+				Hans Gruber
+			 </a>
+</li>
+<li>Size: medium</li>
+<li>Gender: male</li>
+<li>Breed: Border-Collie</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Needs</th><th>Medical Support</th><th>Feedingroutine</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<ul>
+<li>Hat besondere Bed&uuml;rfnisse und ist sehr anh&auml;nglich</li>
+</ul>
+</td><td>
+<ul>
+<li>
+<p>Dr. Oetker<br>Zwei Tabletten am Tag<br>
+										Start Date: 2017-12-21<br>
+										End Date: 2017-12-24</p>
+</li>
+<li>
+<p>Augen Tropfen<br>Morgens und Abends<br>
+										Start Date: 2017-12-21<br>
+										End Date: 2017-12-24</p>
+</li>
+</ul>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Time</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mittags<br>
+</p>
+</td><td>
+<p>Schweinskotletten<br>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Morgens<br>Abends<br>
+</p>
+</td><td>
+<p>Dosenfutter<br>Haferflocken<br>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<ul>
+<li>
+<a href="#food-id-1">Pedigree - 
+									Schweinskotletten</a>
+</li>
+<li>
+<a href="#food-id-2">Pedigree - 
+									Dosenfutter</a>
+</li>
+<li>
+<a href="#food-id-3">S-Budget - 
+									Haferflocken</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="dog">
+<h3 id="dog-id-2">Muffin</h3>
+<p>Information:</p>
+<ul>
+<li>Owner:<a href="#customer-id-2" xml:space="preserve">
+				Simon Keckeis
+			 </a>
+</li>
+<li>Size: large</li>
+<li>Gender: male</li>
+<li>Breed: Labrador</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Needs</th><th>Medical Support</th><th>Feedingroutine</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<ul>
+<li>Muss t&auml;glich geb&uuml;rstet werden</li>
+<li>Nicht l&auml;nger als 5 Minuten gassi (sehr alt)</li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Time</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Morgens<br>
+</p>
+</td><td>
+<p>Dosenfutter<br>Haferflocken<br>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<ul>
+<li>
+<a href="#food-id-2">Pedigree - 
+									Dosenfutter</a>
+</li>
+<li>
+<a href="#food-id-3">S-Budget - 
+									Haferflocken</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="dog">
+<h3 id="dog-id-3">Princess</h3>
+<p>Information:</p>
+<ul>
+<li>Owner:<a href="#customer-id-2" xml:space="preserve">
+				Simon Keckeis
+			 </a>
+</li>
+<li>Size: small</li>
+<li>Gender: female</li>
+<li>Breed: Zwergpinscher</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Needs</th><th>Medical Support</th><th>Feedingroutine</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<ul></ul>
+</td><td>
+<ul>
+<li>
+<p>Vitamintablette<br>T&auml;glich eine Tablette<br>
+										Start Date: 2017-12-21<br>
+										End Date: 2017-12-24</p>
+</li>
+</ul>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Time</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nachmittags<br>
+</p>
+</td><td>
+<p>Dosenfutter<br>Haferflocken<br>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Morgens<br>Vormittags<br>Nachmittags<br>
+</p>
+</td><td>
+<p>Schweinskotletten<br>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<ul>
+<li>
+<a href="#food-id-1">Pedigree - 
+									Schweinskotletten</a>
+</li>
+<li>
+<a href="#food-id-2">Pedigree - 
+									Dosenfutter</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="dog">
+<h3 id="dog-id-4">Felix</h3>
+<p>Information:</p>
+<ul>
+<li>Owner:<a href="#customer-id-3" xml:space="preserve">
+				Paul Mair
+			 </a>
+</li>
+<li>Size: medium</li>
+<li>Gender: male</li>
+<li>Breed: Dackel</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Needs</th><th>Medical Support</th><th>Feedingroutine</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<ul>
+<li>Rennt gerne davon</li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Time</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Morgens<br>
+</p>
+</td><td>
+<p>Schweinskotletten<br>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Nachmittags<br>Abends<br>
+</p>
+</td><td>
+<p>Beef Sticks<br>Chicken Bonas<br>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<ul>
+<li>
+<a href="#food-id-1">Pedigree - 
+									Schweinskotletten</a>
+</li>
+<li>
+<a href="#food-id-5">Vitakraft - 
+									Beef Sticks</a>
+</li>
+<li>
+<a href="#food-id-6">Vitakraft - 
+									Chicken Bonas</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="dog">
+<h3 id="dog-id-5">Balu</h3>
+<p>Information:</p>
+<ul>
+<li>Owner:<a href="#customer-id-4" xml:space="preserve">
+				Anna M&uuml;ller
+			 </a>
+</li>
+<li>Size: medium</li>
+<li>Gender: male</li>
+<li>Breed: Neufundl&auml;nder</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Needs</th><th>Medical Support</th><th>Feedingroutine</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<ul>
+<li>Braucht viel Bewegung.</li>
+</ul>
+</td><td>
+<ul>
+<li>
+<p>Antibiotikum<br>Eine Tablette am Tag<br>
+										Start Date: 2018-01-01<br>
+										End Date: 2018-01-10</p>
+</li>
+</ul>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Time</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Morgens<br>
+</p>
+</td><td>
+<p>Dosenfutter<br>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Abends<br>
+</p>
+</td><td>
+<p>Duck Bonas<br>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<ul>
+<li>
+<a href="#food-id-2">Pedigree - 
+									Dosenfutter</a>
+</li>
+<li>
+<a href="#food-id-4">Vitakraft - 
+									Duck Bonas</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="dog">
+<h3 id="dog-id-6">Kira</h3>
+<p>Information:</p>
+<ul>
+<li>Owner:<a href="#customer-id-5" xml:space="preserve">
+				Maria Egger
+			 </a>
+</li>
+<li>Size: small</li>
+<li>Gender: female</li>
+<li>Breed: Mops</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Needs</th><th>Medical Support</th><th>Feedingroutine</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<ul></ul>
+</td><td>
+<ul></ul>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Time</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Morgens<br>
+</p>
+</td><td>
+<p>Haferflocken<br>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Abends<br>
+</p>
+</td><td>
+<p>Duck Bonas<br>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<ul>
+<li>
+<a href="#food-id-3">S-Budget - 
+									Haferflocken</a>
+</li>
+<li>
+<a href="#food-id-4">Vitakraft - 
+									Duck Bonas</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="dog">
+<h3 id="dog-id-7">Lucy</h3>
+<p>Information:</p>
+<ul>
+<li>Owner:<a href="#customer-id-5" xml:space="preserve">
+				Maria Egger
+			 </a>
+</li>
+<li>Size: small</li>
+<li>Gender: female</li>
+<li>Breed: Terrier</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Needs</th><th>Medical Support</th><th>Feedingroutine</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<ul>
+<li>Ist sehr anh&auml;nglich</li>
+</ul>
+</td><td>
+<ul></ul>
+</td><td>
+<table>
+<thead>
+<tr>
+<th>Time</th><th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vormittags<br>
+</p>
+</td><td>
+<p>Schweinskotletten<br>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Abends<br>
+</p>
+</td><td>
+<p>Lamb Bonas<br>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td><td>
+<ul>
+<li>
+<a href="#food-id-1">Pedigree - 
+									Schweinskotletten</a>
+</li>
+<li>
+<a href="#food-id-7">Vitakraft - 
+									Lamb Bonas</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="block">
+<h2>Reservations</h2>
+<table>
+<thead>
+<tr>
+<th>Begin</th><th>End</th><th>Customer</th><th>Dog</th><th>Sleep Space</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2017-12-21T08:00:00+1</td><td>2018-01-08T16:00:00+1</td><td><a href="#customer-id-1" xml:space="preserve">
+								Hans 
+								Gruber
+							</a></td><td><a href="#dog-id-1">Fido</a></td><td xml:space="preserve">
+								space-5 
+								medium
+							</td>
+</tr>
+<tr>
+<td>2017-12-24T14:00:00+1</td><td>2017-12-28T14:00:00+1</td><td><a href="#customer-id-2" xml:space="preserve">
+								Simon 
+								Keckeis
+							</a></td><td><a href="#dog-id-2">Muffin</a></td><td xml:space="preserve">
+								space-9 
+								large
+							</td>
+</tr>
+<tr>
+<td>2017-12-24T14:00:00+1</td><td>2017-12-28T14:00:00+1</td><td><a href="#customer-id-2" xml:space="preserve">
+								Simon 
+								Keckeis
+							</a></td><td><a href="#dog-id-3">Princess</a></td><td xml:space="preserve">
+								space-1 
+								small
+							</td>
+</tr>
+<tr>
+<td>2018-01-02T08:00:00+1</td><td>2018-01-10T17:00:00+1</td><td><a href="#customer-id-3" xml:space="preserve">
+								Paul 
+								Mair
+							</a></td><td><a href="#dog-id-4">Felix</a></td><td xml:space="preserve">
+								space-6 
+								medium
+							</td>
+</tr>
+<tr>
+<td>2018-01-15T08:00:00+1</td><td>2018-01-15T16:00:00+1</td><td><a href="#customer-id-3" xml:space="preserve">
+								Paul 
+								Mair
+							</a></td><td><a href="#dog-id-4">Felix</a></td><td xml:space="preserve">
+								space-6 
+								medium
+							</td>
+</tr>
+<tr>
+<td>2018-02-01T08:00:00+1</td><td>2018-02-05T16:00:00+1</td><td><a href="#customer-id-1" xml:space="preserve">
+								Hans 
+								Gruber
+							</a></td><td><a href="#dog-id-1">Fido</a></td><td xml:space="preserve">
+								space-5 
+								medium
+							</td>
+</tr>
+<tr>
+<td>2018-02-01T08:00:00+1</td><td>2018-02-05T16:00:00+1</td><td><a href="#customer-id-4" xml:space="preserve">
+								Anna 
+								M&uuml;ller
+							</a></td><td><a href="#dog-id-5">Balu</a></td><td xml:space="preserve">
+								space-7 
+								medium
+							</td>
+</tr>
+<tr>
+<td>2018-02-01T08:00:00+1</td><td>2018-02-05T16:00:00+1</td><td><a href="#customer-id-5" xml:space="preserve">
+								Maria 
+								Egger
+							</a></td><td><a href="#dog-id-6">Kira</a></td><td xml:space="preserve">
+								space-1 
+								small
+							</td>
+</tr>
+<tr>
+<td>2018-02-01T08:00:00+1</td><td>2018-02-05T16:00:00+1</td><td><a href="#customer-id-5" xml:space="preserve">
+								Maria 
+								Egger
+							</a></td><td><a href="#dog-id-7">Lucy</a></td><td xml:space="preserve">
+								space-2 
+								small
+							</td>
+</tr>
+<tr>
+<td>2018-03-02T08:00:00+1</td><td>2018-03-10T17:00:00+1</td><td><a href="#customer-id-4" xml:space="preserve">
+								Anna 
+								M&uuml;ller
+							</a></td><td><a href="#dog-id-5">Balu</a></td><td xml:space="preserve">
+								space-6 
+								medium
+							</td>
+</tr>
+<tr>
+<td>2018-03-02T08:00:00+1</td><td>2018-03-10T08:00:00+1</td><td><a href="#customer-id-5" xml:space="preserve">
+								Maria 
+								Egger
+							</a></td><td><a href="#dog-id-6">Kira</a></td><td xml:space="preserve">
+								space-1 
+								small
+							</td>
+</tr>
+<tr>
+<td>2018-03-02T08:00:00+1</td><td>2018-03-10T08:00:00+1</td><td><a href="#customer-id-5" xml:space="preserve">
+								Maria 
+								Egger
+							</a></td><td><a href="#dog-id-7">Lucy</a></td><td xml:space="preserve">
+								space-2 
+								small
+							</td>
+</tr>
+<tr>
+<td>2018-03-02T08:00:00+1</td><td>2018-03-10T08:00:00+1</td><td><a href="#customer-id-1" xml:space="preserve">
+								Hans 
+								Gruber
+							</a></td><td><a href="#dog-id-1">Fido</a></td><td xml:space="preserve">
+								space-5 
+								medium
+							</td>
+</tr>
+<tr>
+<td>2018-03-02T08:00:00+1</td><td>2018-03-10T08:00:00+1</td><td><a href="#customer-id-3" xml:space="preserve">
+								Paul 
+								Mair
+							</a></td><td><a href="#dog-id-4">Felix</a></td><td xml:space="preserve">
+								space-7 
+								medium
+							</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="block">
+<h2>Stock</h2>
+<table>
+<thead>
+<tr>
+<th>Brand</th><th>Name</th><th>Size</th><th>On Stock</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="food-id-1">Pedigree</td><td>Schweinskotletten</td><td>20g</td><td>30 Stk.</td>
+</tr>
+<tr>
+<td id="food-id-2">Pedigree</td><td>Dosenfutter</td><td>500g</td><td>100 Stk.</td>
+</tr>
+<tr>
+<td id="food-id-3">S-Budget</td><td>Haferflocken</td><td>1000g</td><td>10 Stk.</td>
+</tr>
+<tr>
+<td id="food-id-4">Vitakraft</td><td>Duck Bonas</td><td>80g</td><td>10 Stk.</td>
+</tr>
+<tr>
+<td id="food-id-5">Vitakraft</td><td>Beef Sticks</td><td>10g</td><td>50 Stk.</td>
+</tr>
+<tr>
+<td id="food-id-6">Vitakraft</td><td>Chicken Bonas</td><td>80g</td><td>5 Stk.</td>
+</tr>
+<tr>
+<td id="food-id-7">Vitakraft</td><td>Lamb Bonas</td><td>80g</td><td>5 Stk.</td>
+</tr>
+<tr>
+<td id="food-id-8">Zooroyal</td><td>Hundesnack</td><td>40g</td><td>20 Stk.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

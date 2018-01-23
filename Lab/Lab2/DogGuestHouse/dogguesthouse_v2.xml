@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE addresses SYSTEM "dogguesthouse.dtd">
+<dogguesthouse>
+
+	<!-- customers -->
+	<customer id="customer-id-1" fname="Hans" lname="Gruber" telephone_nr="0666 6942069" address="Hauptstraße 1" city="Dornbirn" postal_code="6850">
+		<dog id="dog-id-1" name="Fido" size="medium" gender="male" breed_name="Border-Collie">
+			<medical_support id="med-id-1" name="Dr. Oetker" start_date="2017-12-21" end_date="2017-12-24" description="Zwei Tabletten am Tag" />
+			<medical_support id="med-id-2" name="Augen Tropfen" start_date="2017-12-21" end_date="2017-12-24" description="Morgens und Abends" />
+			<need id="need-1" description="Hat besondere Bedürfnisse und ist sehr anhänglich"/>		
+			<!-- food which the dog eats -->
+			<is_fed food_id="food-id-1"/>
+			<is_fed food_id="food-id-2"/>
+			<is_fed food_id="food-id-3"/>
+			
+			<!-- feeding routines for the dog  -->
+			<feedingroutine id="feedingroutine-id-1">
+				<!-- amount of food that is served for a feeding routine -->
+				<serves food_id="food-id-1" serving_size="20g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-3"/>
+			</feedingroutine>
+			<feedingroutine id="feedingroutine-id-2">
+				<serves food_id="food-id-2" serving_size="50g"/>
+				<serves food_id="food-id-3" serving_size="50g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-1"/>
+			 	<takes_place feedingtime_id="feedingtime-id-5"/>
+			</feedingroutine>
+		</dog>
+	</customer>
+	
+	<customer id="customer-id-2" fname="Simon" lname="Keckeis" telephone_nr="0699 1111111" address="Reinstraße 1" city="Feldkirch" postal_code="6800">
+		<dog id="dog-id-2" name="Muffin" size="large" gender="male" breed_name="Labrador">
+			<need id="need-2" description="Muss täglich gebürstet werden"/>	
+			<need id="need-6" description="Nicht länger als 5 Minuten gassi (sehr alt)"/>	
+			<!-- food which the dog eats -->	
+			<is_fed food_id="food-id-2"/>
+			<is_fed food_id="food-id-3"/>
+				<!-- feeding routines for the dog  -->
+			<feedingroutine id="feedingroutine-id-3">
+				<!-- amount of food that is served for a feeding routine -->
+				<serves food_id="food-id-2" serving_size="100g"/>
+				<serves food_id="food-id-3" serving_size="50g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-1"/>
+			</feedingroutine>
+		</dog>
+		
+		<dog id="dog-id-3" name="Princess" size="small" gender="female" breed_name="Zwergpinscher">
+			<medical_support id="med-id-2" name="Vitamintablette" start_date="2017-12-21" end_date="2017-12-24" description="Täglich eine Tablette" />
+			<!-- food which the dog eats -->
+			<is_fed food_id="food-id-1"/>
+			<is_fed food_id="food-id-2"/>
+				<!-- feeding routines for the dog  -->
+			<feedingroutine id="feedingroutine-id-4">
+				<serves food_id="food-id-2" serving_size="50g"/>
+				<serves food_id="food-id-3" serving_size="50g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-4"/>
+			</feedingroutine>
+			<feedingroutine id="feedingroutine-id-5">
+				<!-- amount of food that is served for a feeding routine -->
+				<serves food_id="food-id-1" serving_size="20g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-1"/>
+			 	<takes_place feedingtime_id="feedingtime-id-2"/>
+			 	<takes_place feedingtime_id="feedingtime-id-4"/>
+			</feedingroutine>
+		</dog>
+	</customer>
+	
+	<customer id="customer-id-3" fname="Paul" lname="Mair" telephone_nr="0666 6555345" address="Hauptstraße 2" city="Rankweil" postal_code="6830">
+		<dog id="dog-id-4" name="Felix" size="medium" gender="male" breed_name="Dackel">
+			<need id="need-3" description="Rennt gerne davon"/>	
+			<!-- food which the dog eats -->	
+			<is_fed food_id="food-id-1"/>
+			<is_fed food_id="food-id-5"/>
+			<is_fed food_id="food-id-6"/>
+			<!-- feeding routines for the dog  -->
+			<feedingroutine id="feedingroutine-id-6">
+				<serves food_id="food-id-1" serving_size="15g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-1"/>
+			</feedingroutine>
+			<feedingroutine id="feedingroutine-id-7">
+				<serves food_id="food-id-5" serving_size="20g"/>
+				<serves food_id="food-id-6" serving_size="20g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-4"/>
+			 	<takes_place feedingtime_id="feedingtime-id-5"/>
+			</feedingroutine>
+		</dog>
+	</customer>
+	
+	<customer id="customer-id-4" fname="Anna" lname="Müller" telephone_nr="0555 6555345" address="Feldweg 2" city="Bludenz" postal_code="6700">
+		<dog id="dog-id-5" name="Balu" size="medium" gender="male" breed_name="Neufundländer">
+			<medical_support id="med-id-3" name="Antibiotikum" start_date="2018-01-01" end_date="2018-01-10" description="Eine Tablette am Tag" />
+			<need id="need-4" description="Braucht viel Bewegung."/>
+			<!-- food which the dog eats -->		
+			<is_fed food_id="food-id-2"/>
+			<is_fed food_id="food-id-4"/>
+			<!-- feeding routines for the dog  -->
+			<feedingroutine id="feedingroutine-id-8">
+				<serves food_id="food-id-2" serving_size="30g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-1"/>
+			</feedingroutine>
+			<feedingroutine id="feedingroutine-id-9">
+				<serves food_id="food-id-4" serving_size="40g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-5"/>
+			</feedingroutine>
+		</dog>
+	</customer>
+	
+	<customer id="customer-id-5" fname="Maria" lname="Egger" telephone_nr="0444 656565" address="Feldweg 4" city="Dornbirn" postal_code="6850">
+		<dog id="dog-id-6" name="Kira" size="small" gender="female" breed_name="Mops">	
+			<!-- food which the dog eats -->
+			<is_fed food_id="food-id-3"/>
+			<is_fed food_id="food-id-4"/>
+			<!-- feeding routines for the dog  -->
+			<feedingroutine id="feedingroutine-id-10">
+				<serves food_id="food-id-3" serving_size="30g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-1"/>
+			</feedingroutine>
+			<feedingroutine id="feedingroutine-id-11">
+				<serves food_id="food-id-4" serving_size="20g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-5"/>
+			</feedingroutine>
+		</dog>
+		
+		<dog id="dog-id-7" name="Lucy" size="small" gender="female" breed_name="Terrier">	
+		<need id="need-5" description="Ist sehr anhänglich"/>
+			<!-- food which the dog eats -->
+			<is_fed food_id="food-id-1"/>
+			<is_fed food_id="food-id-7"/>
+			<!-- feeding routines for the dog  -->
+			<feedingroutine id="feedingroutine-id-12">
+				<serves food_id="food-id-1" serving_size="30g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-2"/>
+			</feedingroutine>
+			<feedingroutine id="feedingroutine-id-13">
+				<serves food_id="food-id-7" serving_size="40g"/>
+			 	<takes_place feedingtime_id="feedingtime-id-5"/>
+			</feedingroutine>
+		</dog>
+	</customer>
+	
+	<!-- all reservations -->
+	<reservation id="reservation-id-1" customer_id="customer-id-1" dog_id="dog-id-1" start_date_time="2017-12-21T08:00:00+1" end_date_time="2018-01-08T16:00:00+1" sleep_space_number="space-5"/>
+	<reservation id="reservation-id-2" customer_id="customer-id-2" dog_id="dog-id-2" start_date_time="2017-12-24T14:00:00+1" end_date_time="2017-12-28T14:00:00+1" sleep_space_number="space-9"/>
+	<reservation id="reservation-id-3" customer_id="customer-id-2" dog_id="dog-id-3" start_date_time="2017-12-24T14:00:00+1" end_date_time="2017-12-28T14:00:00+1" sleep_space_number="space-1"/>
+	<reservation id="reservation-id-4" customer_id="customer-id-1" dog_id="dog-id-1" start_date_time="2018-02-01T08:00:00+1" end_date_time="2018-02-05T16:00:00+1" sleep_space_number="space-5"/>
+	<reservation id="reservation-id-5" customer_id="customer-id-3" dog_id="dog-id-4" start_date_time="2018-01-02T08:00:00+1" end_date_time="2018-01-10T17:00:00+1" sleep_space_number="space-6"/>
+	<reservation id="reservation-id-6" customer_id="customer-id-3" dog_id="dog-id-4" start_date_time="2018-01-15T08:00:00+1" end_date_time="2018-01-15T16:00:00+1" sleep_space_number="space-6"/>
+	<reservation id="reservation-id-7" customer_id="customer-id-4" dog_id="dog-id-5" start_date_time="2018-02-01T08:00:00+1" end_date_time="2018-02-05T16:00:00+1" sleep_space_number="space-7"/>
+	<reservation id="reservation-id-8" customer_id="customer-id-4" dog_id="dog-id-5" start_date_time="2018-03-02T08:00:00+1" end_date_time="2018-03-10T17:00:00+1" sleep_space_number="space-6"/>
+	<reservation id="reservation-id-9" customer_id="customer-id-5" dog_id="dog-id-6" start_date_time="2018-02-01T08:00:00+1" end_date_time="2018-02-05T16:00:00+1" sleep_space_number="space-1"/>
+	<reservation id="reservation-id-10" customer_id="customer-id-5" dog_id="dog-id-7" start_date_time="2018-02-01T08:00:00+1" end_date_time="2018-02-05T16:00:00+1" sleep_space_number="space-2"/>
+	<reservation id="reservation-id-11" customer_id="customer-id-5" dog_id="dog-id-6" start_date_time="2018-03-02T08:00:00+1" end_date_time="2018-03-10T08:00:00+1" sleep_space_number="space-1"/>
+	<reservation id="reservation-id-12" customer_id="customer-id-5" dog_id="dog-id-7" start_date_time="2018-03-02T08:00:00+1" end_date_time="2018-03-10T08:00:00+1" sleep_space_number="space-2"/>
+	<reservation id="reservation-id-13" customer_id="customer-id-1" dog_id="dog-id-1" start_date_time="2018-03-02T08:00:00+1" end_date_time="2018-03-10T08:00:00+1" sleep_space_number="space-5"/>
+	<reservation id="reservation-id-14" customer_id="customer-id-3" dog_id="dog-id-4" start_date_time="2018-03-02T08:00:00+1" end_date_time="2018-03-10T08:00:00+1" sleep_space_number="space-7"/>
+	
+	<!-- Available food -->
+	<food id="food-id-1" product_name="Schweinskotletten" brand="Pedigree" stock="30" size="20g"/>
+	<food id="food-id-2" product_name="Dosenfutter" brand="Pedigree" stock="100" size="500g"/>
+	<food id="food-id-3" product_name="Haferflocken" brand="S-Budget" stock="10" size="1000g"/>
+	<food id="food-id-4" product_name="Duck Bonas" brand="Vitakraft" stock ="10" size="80g"/>
+	<food id="food-id-5" product_name="Beef Sticks" brand="Vitakraft" stock="50" size="10g"/>
+	<food id="food-id-6" product_name="Chicken Bonas" brand="Vitakraft" stock="5" size="80g"/>
+	<food id="food-id-7" product_name="Lamb Bonas" brand="Vitakraft" stock="5" size="80g"/>	
+	<food id="food-id-8" product_name="Hundesnack" brand="Zooroyal" stock="20" size="40g"/>
+
+	<!-- Available Sleeping spaces -->
+	<sleep_space sleep_space_number="space-1" size="small"/>
+	<sleep_space sleep_space_number="space-2" size="small"/>
+	<sleep_space sleep_space_number="space-3" size="small"/>
+	<sleep_space sleep_space_number="space-4" size="small"/>
+	<sleep_space sleep_space_number="space-5" size="medium"/>
+	<sleep_space sleep_space_number="space-6" size="medium"/>
+	<sleep_space sleep_space_number="space-7" size="medium"/>
+	<sleep_space sleep_space_number="space-8" size="medium"/>
+	<sleep_space sleep_space_number="space-9" size="large"/>
+	<sleep_space sleep_space_number="space-10" size="large"/>
+	<sleep_space sleep_space_number="space-11" size="large"/>
+	<sleep_space sleep_space_number="space-12" size="large"/>
+	
+	<!-- Different dog breeds -->
+	<breed breed_name="Zwergpinscher"/>
+	<breed breed_name="Border-Collie"/>
+	<breed breed_name="Labrador"/>
+	<breed breed_name="Schäfer"/>
+	<breed breed_name="Terrier"/>
+	<breed breed_name="Dackel"/>
+	<breed breed_name="Windhund"/>
+	<breed breed_name="Beagle"/>
+	<breed breed_name="Mops"/>
+	<breed breed_name="Neufundländer"/>
+	<breed breed_name="Cocker-Spaniel"/>
+	<breed breed_name="Bernhardiner"/>
+	
+	<!-- Feeding Times -->
+	<feeding_time id="feedingtime-id-1" daytime="Morgens"/>
+	<feeding_time id="feedingtime-id-2" daytime="Vormittags"/>
+	<feeding_time id="feedingtime-id-3" daytime="Mittags"/>
+	<feeding_time id="feedingtime-id-4" daytime="Nachmittags"/>
+	<feeding_time id="feedingtime-id-5" daytime="Abends"/>
+	
+</dogguesthouse>
+
+
+
+
+
+
+
+

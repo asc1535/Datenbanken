@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT dogguesthouse (customer*, reservation*, food*, sleep_space*, breed*, feeding_time+)>
+<!ELEMENT customer (dog+)>
+<!ATTLIST customer  id ID #REQUIRED
+					fname CDATA #REQUIRED
+					lname CDATA #REQUIRED
+					telephone_nr CDATA #REQUIRED
+					address CDATA #REQUIRED
+					city CDATA #REQUIRED
+					postal_code CDATA #REQUIRED
+>
+<!ELEMENT dog (medical_support*, need*, is_fed+, feedingroutine*)>
+<!ATTLIST dog	id ID #REQUIRED
+				name CDATA #REQUIRED
+				size (small|medium|large) #REQUIRED
+				gender (male|female|attack_helicopter) #REQUIRED
+				breed_name IDREF #REQUIRED
+>
+
+<!ELEMENT medical_support EMPTY>
+<!ATTLIST medical_support	id ID #REQUIRED
+							name CDATA #REQUIRED
+							start_date CDATA #REQUIRED
+							end_date CDATA #REQUIRED
+							description CDATA #REQUIRED
+>
+
+<!ELEMENT need EMPTY>
+<!ATTLIST need 	id ID #REQUIRED
+				description CDATA #REQUIRED
+>
+ 
+<!ELEMENT is_fed EMPTY>
+<!ATTLIST is_fed food_id IDREF #REQUIRED>
+
+<!ELEMENT feedingroutine ((serves*, takes_place*)|(takes_place*,serves*))>
+<!ATTLIST feedingroutine id ID #REQUIRED>
+
+<!ELEMENT takes_place EMPTY>
+<!ATTLIST takes_place feedingtime_id IDREF #REQUIRED>
+
+<!ELEMENT reservation EMPTY>
+<!ATTLIST reservation	id ID #REQUIRED
+						customer_id IDREF #REQUIRED
+						dog_id IDREF #REQUIRED
+						start_date_time CDATA #REQUIRED
+						end_date_time CDATA #REQUIRED
+						sleep_space_number IDREF #REQUIRED
+>
+						
+<!ELEMENT serves EMPTY>
+<!ATTLIST serves 	food_id IDREF #REQUIRED
+					serving_size CDATA #REQUIRED
+>
+
+
+<!ELEMENT food EMPTY>
+<!ATTLIST food  id ID #REQUIRED
+				product_name CDATA #REQUIRED
+				brand CDATA #REQUIRED
+				stock CDATA #REQUIRED
+				size CDATA #REQUIRED
+>
+
+<!ELEMENT sleep_space EMPTY>
+<!ATTLIST sleep_space	sleep_space_number ID #REQUIRED
+						size (small|medium|large) #REQUIRED
+>
+
+<!ELEMENT breed EMPTY>
+<!ATTLIST breed breed_name ID #REQUIRED>
+
+<!ELEMENT feeding_time EMPTY>
+<!ATTLIST feeding_time	id ID #REQUIRED
+						daytime CDATA #REQUIRED
+>

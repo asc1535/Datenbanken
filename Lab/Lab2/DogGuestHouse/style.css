@@ -1,0 +1,63 @@
+body {
+    background-color: silver;
+}
+h1{
+	margin-left: 10%;
+}
+h2{
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-left: 5%;
+}
+
+h3{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.block {
+	margin-left: 10px;
+	margin-top:10px;
+	background-color: white;
+    padding: 10px;
+}
+
+.dog{
+	margin: 10px 10px 10px 10px;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+}
+
+.customerEntry{
+	margin: 10px 10px 10px 10px;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+}
+
+.dog td{
+	table-layout: fixed;
+	width: 20%;
+}
+
+table.customer{
+	table-layout: fixed;
+	margin-left: 20px;
+}
+
+table.customer td{
+	width: 20%;
+}
+
+table{
+	width: 100%;
+}
+
+td, th {
+  vertical-align: top;
+  text-align: left;
+}
+

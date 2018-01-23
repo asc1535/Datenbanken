@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT projack (altersklasse*,verein*,athlet*,disziplin*,leistungAthlet*)>
+
+<!ELEMENT leistungAthlet (datum, ort,athlet_leistung)>
+
+<!ATTLIST leistungAthlet athlet_ID IDREF #REQUIRED>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT ort (#PCDATA)>
+<!ELEMENT disziplin (disziplinName,masseinheit)>
+<!ELEMENT athlet (vorname,nachname,geschlecht,geburtstag)>
+<!ELEMENT athlet_leistung (#PCDATA)>
+
+<!ATTLIST disziplin 	id ID #REQUIRED>
+<!ATTLIST leistungAthlet disziplin_ID IDREF #REQUIRED>
+<!ELEMENT disziplinName (#PCDATA)>
+<!ATTLIST disziplin altersklasse_ID IDREF #REQUIRED>
+<!ELEMENT masseinheit (#PCDATA)>
+
+<!ELEMENT altersklasse EMPTY>
+<!ATTLIST altersklasse 	id ID #REQUIRED
+						altersklasse_name CDATA #REQUIRED>
+
+<!ATTLIST athlet id ID #REQUIRED>
+<!ATTLIST athlet altersklasse_ID IDREF #REQUIRED>
+<!ELEMENT vorname (#PCDATA)>
+<!ELEMENT nachname (#PCDATA)>
+<!ELEMENT geschlecht (#PCDATA)>
+<!ELEMENT geburtstag (#PCDATA)>
+<!ELEMENT verein EMPTY>
+<!ATTLIST verein	id ID #REQUIRED
+					name CDATA #REQUIRED>					
+
+<!ATTLIST athlet vereins_name_ID IDREF #REQUIRED>

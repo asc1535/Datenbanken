@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projack SYSTEM "projack.dtd">
+
+<projack>
+	<altersklasse id="MU12" altersklasse_name="Männlich Unter 12" />
+	<altersklasse id="WU12" altersklasse_name="Weiblich Unter 12" />
+	<altersklasse id="MU14" altersklasse_name="Männlich Unter 14" />
+	<altersklasse id="WU14" altersklasse_name="Weiblich Unter 14" />
+	<altersklasse id="MU16" altersklasse_name="Männlich Unter 16" />
+	<altersklasse id="WU16" altersklasse_name="Weiblich Unter 16" />
+	<altersklasse id="MU18" altersklasse_name="Männlich Unter 18" />
+	<altersklasse id="WU18" altersklasse_name="Weiblich Unter 18" />
+	<altersklasse id="MU20" altersklasse_name="Männlich Unter 20" />
+	<altersklasse id="WU20" altersklasse_name="Weiblich Unter 20" />
+	<altersklasse id="AKM" altersklasse_name="Allgemeine Klasse Männlich" />
+	<altersklasse id="AKW" altersklasse_name="Allgemeine Klasse Weiblich" />
+
+	<verein id="SV-Lochau" name="SV Lochau" />
+	<verein id="SPK-SG-Götzis" name="SPK SG Götzis" />
+	<verein id="TS-Giesingen" name="TS Giesingen" />
+	<verein id="TS-Bregenz" name="TS Bregenz" />
+	<verein id="TS-Dornbirn" name="TS Dornbirn" />
+	<verein id="TS-Lustenau" name="TS Lustenau" />
+	<verein id="TS-Höchst" name="TS Höchst" />
+	<verein id="TS-Rankweil" name="TS Rankweil" />
+
+	<athlet vereins_name_ID="SV-Lochau" id="S1" altersklasse_ID="MU18">
+		<vorname>Chris</vorname>
+		<nachname>Soulzocker</nachname>
+		<geschlecht>Männlich</geschlecht>
+		<geburtstag>21.06.2005</geburtstag>
+	</athlet>
+	<athlet vereins_name_ID="SV-Lochau" id="S2" altersklasse_ID="MU20">
+		<vorname>Hans</vorname>
+		<nachname>Musterpeter</nachname>
+		<geschlecht>Männlich</geschlecht>
+		<geburtstag>21.06.1998</geburtstag>
+	</athlet>
+	<athlet vereins_name_ID="TS-Bregenz" id="S3" altersklasse_ID="MU20">
+		<vorname>Hans</vorname>
+		<nachname>Schneider</nachname>
+		<geschlecht>Männlich</geschlecht>
+		<geburtstag>28.06.1998</geburtstag>
+	</athlet>
+	<athlet vereins_name_ID="TS-Bregenz" id="S4" altersklasse_ID="AKW">
+		<vorname>Hannelore</vorname>
+		<nachname>Schneider</nachname>
+		<geschlecht>Weiblich</geschlecht>
+		<geburtstag>10.09.1960</geburtstag>
+	</athlet>
+	<athlet vereins_name_ID="SPK-SG-Götzis" id="S5" altersklasse_ID="AKM">
+		<vorname>Adrian</vorname>
+		<nachname>Bischof</nachname>
+		<geschlecht>Teufel/Gott</geschlecht>
+		<geburtstag>16.09.1996</geburtstag>
+	</athlet>
+	<athlet vereins_name_ID="SPK-SG-Götzis" id="S6" altersklasse_ID="AKW">
+		<vorname>Athena</vorname>
+		<nachname>Müller</nachname>
+		<geschlecht>Weiblich</geschlecht>
+		<geburtstag>16.09.1995</geburtstag>
+	</athlet>
+	<athlet vereins_name_ID="TS-Rankweil" id="S7" altersklasse_ID="WU14">
+		<vorname>Laura</vorname>
+		<nachname>Staudacher</nachname>
+		<geschlecht>Weiblich</geschlecht>
+		<geburtstag>24.12.2004</geburtstag>
+	</athlet>
+
+	<athlet vereins_name_ID="TS-Höchst" id="S8" altersklasse_ID="MU16">
+		<vorname>Marco</vorname>
+		<nachname>Weber</nachname>
+		<geschlecht>Männlich</geschlecht>
+		<geburtstag>02.09.2002</geburtstag>
+	</athlet>
+
+	<athlet vereins_name_ID="TS-Lustenau" id="S9" altersklasse_ID="WU18">
+		<vorname>Isabell</vorname>
+		<nachname>Hafner</nachname>
+		<geschlecht>Weiblich</geschlecht>
+		<geburtstag>14.03.1999</geburtstag>
+	</athlet>
+
+	<disziplin id="SPW_MU12" altersklasse_ID="MU12">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_MU14" altersklasse_ID="MU14">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_MU16" altersklasse_ID="MU16">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_MU18" altersklasse_ID="MU18">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_MU20" altersklasse_ID="MU20">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_AKM" altersklasse_ID="AKM">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_WU12" altersklasse_ID="WU12">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_WU14" altersklasse_ID="WU14">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_WU16" altersklasse_ID="WU16">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_WU18" altersklasse_ID="WU18">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_WU20" altersklasse_ID="WU20">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="SPW_AKW" altersklasse_ID="AKW">
+		<disziplinName>Speerwerfen</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+
+	<disziplin id="HS_MU12" altersklasse_ID="MU12">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_MU14" altersklasse_ID="MU14">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_MU16" altersklasse_ID="MU16">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_MU18" altersklasse_ID="MU18">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_MU20" altersklasse_ID="MU20">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_AKM" altersklasse_ID="AKM">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_WU12" altersklasse_ID="WU12">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_WU14" altersklasse_ID="WU14">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_WU16" altersklasse_ID="WU16">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_WU18" altersklasse_ID="WU18">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_WU20" altersklasse_ID="WU20">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+	<disziplin id="HS_AKW" altersklasse_ID="AKW">
+		<disziplinName>Hochsprung</disziplinName>
+		<masseinheit>Meter</masseinheit>
+	</disziplin>
+
+	<leistungAthlet disziplin_ID="SPW_MU18" athlet_ID="S1">
+		<datum>21.08.2016</datum>
+		<ort>Lochau</ort>
+		<athlet_leistung>0.52</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="HS_MU18" athlet_ID="S1">
+		<datum>22.08.2016</datum>
+		<ort>Lochau</ort>
+		<athlet_leistung>1.72</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="HS_MU18" athlet_ID="S1">
+		<datum>22.08.2016</datum>
+		<ort>Lochau</ort>
+		<athlet_leistung>1.72</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="HS_AKW" athlet_ID="S6">
+		<datum>28.08.2017</datum>
+		<ort>Lochau</ort>
+		<athlet_leistung>1.10</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="SPW_AKM" athlet_ID="S5">
+		<datum>08.01.2018</datum>
+		<ort>Lochau</ort>
+		<athlet_leistung>65.00</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="SPW_AKM" athlet_ID="S5">
+		<datum>07.01.2018</datum>
+		<ort>Lochau</ort>
+		<athlet_leistung>49.99</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="SPW_AKW" athlet_ID="S4">
+		<datum>07.01.2018</datum>
+		<ort>Lochau</ort>
+		<athlet_leistung>50.00</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="SPW_AKM" athlet_ID="S5">
+		<datum>07.01.2018</datum>
+		<ort>Lochau</ort>
+		<athlet_leistung>56.00</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="SPW_AKM" athlet_ID="S5">
+		<datum>07.01.2018</datum>
+		<ort>Lochau</ort>
+		<athlet_leistung>56.00</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="SPW_AKW" athlet_ID="S6">
+		<datum>06.01.2018</datum>
+		<ort>Götzis</ort>
+		<athlet_leistung>12.00</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="SPW_AKW" athlet_ID="S6">
+		<datum>06.01.2018</datum>
+		<ort>Götzis</ort>
+		<athlet_leistung>10.00</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="SPW_WU14" athlet_ID="S7">
+		<datum>06.01.2018</datum>
+		<ort>Götzis</ort>
+		<athlet_leistung>18.00</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="HS_MU16" athlet_ID="S8">
+		<datum>04.02.2017</datum>
+		<ort>Dornbirn</ort>
+		<athlet_leistung>1.82</athlet_leistung>
+	</leistungAthlet>
+	<leistungAthlet disziplin_ID="SPW_WU18" athlet_ID="S9">
+		<datum>06.01.2018</datum>
+		<ort>Götzis</ort>
+		<athlet_leistung>54.68</athlet_leistung>
+	</leistungAthlet>
+</projack>

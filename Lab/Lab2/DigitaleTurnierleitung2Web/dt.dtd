@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT player EMPTY>
+<!ATTLIST player 	id ID #REQUIRED
+					firstname CDATA #REQUIRED
+					lastname CDATA #REQUIRED
+>	
+
+<!ELEMENT digitale_turnierleitung (tournament*)>
+
+<!ELEMENT tournament (round*, team*, player*)>
+<!ATTLIST tournament  id ID #REQUIRED
+					  date CDATA #REQUIRED
+>
+
+<!ELEMENT round (play-group*)>
+<!ATTLIST round id ID #REQUIRED
+				round-number CDATA #REQUIRED
+>
+
+<!ELEMENT team (player*)>
+<!ATTLIST team 	id ID #REQUIRED
+				teamname CDATA #REQUIRED
+				leader-id IDREF #REQUIRED
+>
+
+<!ELEMENT play-group (match*)>
+<!ATTLIST play-group	id ID #REQUIRED
+						group-name CDATA #REQUIRED
+>
+
+<!ELEMENT match EMPTY>
+<!ATTLIST match		id ID #REQUIRED
+					team-1-id IDREF #REQUIRED
+					team-2-id IDREF #REQUIRED
+					start-time CDATA #REQUIRED
+					lane CDATA #REQUIRED
+>
+
+
+

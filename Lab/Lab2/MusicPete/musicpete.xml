@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musicpete SYSTEM "musicpete.dtd">
+<musicpete>
+
+	<!--Instrument State -->
+	<InstrumentState ID="is1" name="kaputt" />
+	<InstrumentState ID="is2" name="beschädigt" />
+	<InstrumentState ID="is3" name="leichter Mangel" />
+
+	<!--Holzinstrumente -->
+	<InstrumentCategory ID="ic1" name="Holz">
+		<InstrumentFamily ID="if1" name="Fagott">
+			<InstrumentType ID="ity1" name="Bassfagott"
+				instrumentTuningID="C">
+				<Instrument ID="i402" instrumentName="Bassfagott 1" color="braun" buyDate="2017-10-05"
+					price="100" receiptDocumentID="D403" accessories="Mundstück, Koffer"
+					instrumentStateID="is1" />
+				<Instrument ID="i403" instrumentName="Bassfagott 2" color="schwarz" buyDate="2017-11-15"
+					price="77" receiptDocumentID="D404" accessories="Mundstück"
+					instrumentStateID="is2" />
+			</InstrumentType>
+		</InstrumentFamily>
+		<InstrumentFamily ID="if2" name="Saxophon">
+			<InstrumentType ID="ity2" name="Alt-Saxophon"
+				instrumentTuningID="C">
+				<Instrument ID="i400" instrumentName="Alt-Saxophon 1" color="gold" buyDate="2017-10-20"
+					price="1500" receiptDocumentID="D400" accessories="Koffer"
+					instrumentStateID="is1" />
+				<Instrument ID="i401" instrumentName="Altsaxophon 2" color="gold" buyDate="2017-09-20"
+					price="2000" receiptDocumentID="D401" accessories="Mundstück"
+					instrumentStateID="is3" />
+			</InstrumentType>
+		</InstrumentFamily>
+		<InstrumentFamily ID="if10" name="Flöte">
+			<InstrumentType ID="ity10" name="Blockflöte"
+				instrumentTuningID="C">
+				<Instrument ID="i1000" instrumentName="Blockflöte 1" color="braun" buyDate="2014-10-05"
+					price="1000" receiptDocumentID="D1000" accessories="Mundstück, Koffer"
+					instrumentStateID="is1" />
+				<Instrument ID="i1001" instrumentName="Blockflöte 2 " color="schwarz" buyDate="2017-11-15"
+					price="77" receiptDocumentID="D1001" accessories="Mundstück"
+					instrumentStateID="is2" />
+			</InstrumentType>
+			<InstrumentType ID="ity11" name="Klarinette"
+				instrumentTuningID="C">
+				<Instrument ID="i1003" instrumentName="Klarinette 1 " color="schwarz" buyDate="2017-05-05"
+					price="1500" receiptDocumentID="D1003" accessories="Koffer"
+					instrumentStateID="is1" />
+				<Instrument ID="i1004" instrumentName="Klarinette 2" color="schwarz" buyDate="2017-04-15"
+					price="77" receiptDocumentID="D1004" accessories="Mundstück"
+					instrumentStateID="is2" />
+			</InstrumentType>
+		</InstrumentFamily>
+	</InstrumentCategory>
+
+	<!--Blechinstrumente -->
+	<InstrumentCategory ID="ic2" name="Blech">
+		<InstrumentFamily ID="if11" name="Bass">
+				<InstrumentType ID="ity5" name="Tuba"
+				instrumentTuningID="C">
+				<Instrument ID="i500" instrumentName="Tuba 1" color="gold" buyDate="2005-10-10"
+					price="300" receiptDocumentID="D500" accessories="Koffer"
+					instrumentStateID="is1" />
+				<Instrument ID="i501" instrumentName="Tuba Alt" color="braun" buyDate="2015-11-10"
+					price="2500" receiptDocumentID="D501" accessories=""
+					instrumentStateID="is3" />
+			</InstrumentType>
+		</InstrumentFamily>
+		<InstrumentFamily ID="if4" name="Trompete">
+			<InstrumentType ID="ity8" name="Natur-Trompete"
+				instrumentTuningID="C">
+				<Instrument ID="i800" instrumentName="Natur-Trompete 1" color="gold" buyDate="2017-06-05"
+					price="3000" receiptDocumentID="D800" accessories=""
+					instrumentStateID="is1" />
+				<Instrument ID="i801" instrumentName="Natur-Tropmete 2" color="braun" buyDate="2015-12-12"
+					price="2500" receiptDocumentID="D801" accessories="Koffer"
+					instrumentStateID="is2" />
+			</InstrumentType>
+		</InstrumentFamily>
+		<InstrumentFamily ID="if8" name="Posaune">
+			<InstrumentType ID="ity6" name="Posaune"
+				instrumentTuningID="C">
+				<Instrument ID="i600" instrumentName="Posaune 1" color="gold" buyDate="2017-07-10"
+					price="300" receiptDocumentID="D600" accessories="Putztuch"
+					instrumentStateID="is3" />
+				<Instrument ID="i601" instrumentName="Posaune 2" color="braun" buyDate="2015-11-10"
+					price="2500" receiptDocumentID="D601" accessories="Koffer"
+					instrumentStateID="is2" />
+			</InstrumentType>
+		</InstrumentFamily>
+
+		<InstrumentFamily ID="if9" name="Horn">
+			<InstrumentType ID="ity7" name="Waldhorn"
+				instrumentTuningID="C">
+				<Instrument ID="i700" instrumentName="Waldhorn 1" color="gold" buyDate="2017-07-10"
+					price="10000" receiptDocumentID="D700" accessories=""
+					instrumentStateID="is3" />
+				<Instrument ID="i701" instrumentName="Waldhorn 2" color="silber" buyDate="2016-11-01"
+					price="2500" receiptDocumentID="D701" accessories="Koffer"
+					instrumentStateID="is1" />
+			</InstrumentType>
+		</InstrumentFamily>
+	</InstrumentCategory>
+
+	<!--Schlagwerkzeuge -->
+	<InstrumentCategory ID="ic3" name="Schlagwerkzeug">
+		<InstrumentFamily ID="if3" name="Schlagzeug">
+			<InstrumentType ID="ity3" name="Pauke"
+				instrumentTuningID="C">
+				<Instrument ID="i200" instrumentName="Pauke 1" color="braun" buyDate="2015-06-05"
+					price="300" receiptDocumentID="D200" accessories="Schlagstock"
+					instrumentStateID="is1" />
+				<Instrument ID="i201" instrumentName="Pauke 2" color="braun" buyDate="2015-06-06"
+					price="300" receiptDocumentID="D201" accessories="Schlagstock"
+					instrumentStateID="is3" />
+			</InstrumentType>
+			<InstrumentType ID="ity4" name="Trommel"
+				instrumentTuningID="C">
+				<Instrument ID="i202" instrumentName="Trommel 1" color="braun" buyDate="2015-06-05"
+					price="100" receiptDocumentID="D202" accessories="Schlagstock"
+					instrumentStateID="is2" />
+				<Instrument ID="i203" instrumentName="Trommel 2" color="braun" buyDate="2015-06-06"
+					price="150" receiptDocumentID="D203" accessories="Schlagstock"
+					instrumentStateID="is3" />
+			</InstrumentType>
+		</InstrumentFamily>
+	</InstrumentCategory>
+
+	<Person ID="p001" lName="Sanchez" fName="Hugo" dateOfBirth="1986-10-10" eMailAddress=""
+		phoneNumber="0190 666 666" isActive="true">
+		<PersonInstrumentType ID="pit1" instrumentTypeID="ity1"
+			fdate="2010-10-10" ldate="" />
+		<PersonInstrumentType ID="pit20"
+			instrumentTypeID="ity2" fdate="2010-01-01" ldate="" />
+		<Address ID="ad1" country="Schweiz"
+		province="Bern" zipCode="3434" city="Bern City" street="Uriweg"
+		streetNumber="7" apartment="1"/>
+	</Person>
+
+	<Person ID="p002" lName="Coinegg" fName="Bianka" dateOfBirth="1995-12-12"
+		eMailAddress="bianka.coinegg@ilovexml.at" phoneNumber="0650 1234567"
+		isActive="true">
+		<PersonInstrumentType ID="pit2" instrumentTypeID="ity1"
+			fdate="2010-10-10" ldate="" />
+		<Address ID="ad2" country="Österreich"
+		province="Vorarlberg" zipCode="6973" city="Höchst City" street="Blumstraße"
+		streetNumber="4" apartment="Top 3" />
+	</Person>
+
+	<Person ID="p003" lName="Polter" fName="Raffaello" dateOfBirth="1993-07-03" eMailAddress="rp@nippon.jp"
+		phoneNumber="0664 44 44 44 44" isActive="true">
+		<PersonInstrumentType ID="pit3" instrumentTypeID="ity1"
+			fdate="2010-10-10" ldate="" />
+		<Address ID="ad3" country="Österreich"
+		province="Vorarlberg" zipCode="6842" city="Klobach" street="Dammweg"
+		streetNumber="11" apartment="" />
+	</Person>
+
+	<Person ID="p004" lName="Herrbeck" fName="Stivi" dateOfBirth="1992-02-10"
+		eMailAddress="herbek@musicpete.me" phoneNumber="0650 76 76 111" isActive="false">
+		<PersonInstrumentType ID="pit4" instrumentTypeID="ity1"
+			fdate="2010-10-10" ldate="2018-02-01" />
+		<Address ID="ad4" country="Österreich"
+		province="Tirol" zipCode="6844" city="Altach" street="Römerweg"
+		streetNumber="44" apartment="Top 13" />
+	</Person>
+
+	<Person ID="p005" lName="Pictureston" fName="Lucas" dateOfBirth="1999-02-30"
+		eMailAddress="luki@bildstein.at" phoneNumber="0001 23 23 23" isActive="false">
+		<PersonInstrumentType ID="pit5" instrumentTypeID="ity1"
+			fdate="2010-10-10" ldate="" />
+		<PersonInstrumentType ID="pit18"
+			instrumentTypeID="ity3" fdate="2010-01-01" ldate="" />
+
+		<PersonInstrumentType ID="pit19"
+			instrumentTypeID="ity1" fdate="2010-01-01" ldate="" />
+		<Address ID="ad5" country="Schweiz"
+		province="Kanton Übrig" zipCode="0000" city="Luschnou" street="Am Bahnhof"
+		streetNumber="1" apartment="Zimmer 3" />
+	</Person>
+
+	<Person ID="p006" lName="Pfarrer" fName="Martin" dateOfBirth="1999-02-30" eMailAddress="bischi@fhv.at"
+		phoneNumber="0044 4454545" isActive="true">
+		<PersonInstrumentType ID="pit6" instrumentTypeID="ity1"
+			fdate="1999-02-30" ldate="" />
+		<Address ID="ad6" country="Österreich"
+		province="Oberland" zipCode="6544" city="Thüringerberg" street="Hauptstraße"
+		streetNumber="2" apartment="" />
+	</Person>
+
+	<Person ID="p007" lName="Mustermann" fName="Max" dateOfBirth="1924-01-01"
+		eMailAddress="muster@mustermann.de" phoneNumber="0011 33 33 33"
+		isActive="true">
+		<PersonInstrumentType ID="pit7" instrumentTypeID="ity1"
+			fdate="1999-02-30" ldate="" />
+		<Address ID="ad7" country="Deutschland"
+		province="Bayern" zipCode="787878" city="München" street="Hauptweg"
+		streetNumber="3" apartment="Top 11" />
+	</Person>
+
+	<Person ID="p008" lName="Kleinegg" fName="Axel" dateOfBirth="1980-10-10" eMailAddress="kleinegg@axe.de"
+		phoneNumber="0800 654 654" isActive="false">
+		<PersonInstrumentType ID="pit8" instrumentTypeID="ity1"
+			fdate="2000-01-01" ldate="" />
+		<Address ID="ad8" country="Deutschland"
+		province="NRW" zipCode="34356" city="Entenhausen" street="Deoweg"
+		streetNumber="4" apartment="" />
+	</Person>
+
+	<Person ID="p009" lName="Digerhund" fName="Roy" dateOfBirth="1980-10-10" eMailAddress="rd@ubs.ch"
+		phoneNumber="0789 898989" isActive="true">
+		<PersonInstrumentType ID="pit9" instrumentTypeID="ity1"
+			fdate="2000-01-02" ldate="" />
+		<PersonInstrumentType ID="pit17"
+			instrumentTypeID="ity3" fdate="2010-01-01" ldate="" />
+		<Address ID="ad9" country="Liechtenstein"
+		province="Vaduz" zipCode="1111" city="Vaduz" street="Steuerloch"
+		streetNumber="3" apartment="" />
+	</Person>
+
+	<Person ID="p010" lName="Otter" fName="Rob" dateOfBirth="1980-10-10" eMailAddress="rob1@aol.com"
+		phoneNumber="0033 445 55 5" isActive="true">
+		<PersonInstrumentType ID="pit10"
+			instrumentTypeID="ity2" fdate="2016-11-04" ldate="2020-11-04" />
+		<Address ID="ad10" country="USA"
+		province="Washington" zipCode="4444" city="Washington D.C." street="Trumpelweg"
+		streetNumber="6" apartment="" />
+	</Person>
+
+	<Person ID="p011" lName="Braten" fName="Ann" dateOfBirth="1980-10-10" eMailAddress="meister@grillen.at"
+		phoneNumber="0900 909090" isActive="true">
+		<PersonInstrumentType ID="pit11"
+			instrumentTypeID="ity4" fdate="2016-11-10" ldate="" />
+		<PersonInstrumentType ID="pit16"
+			instrumentTypeID="ity1" fdate="2010-01-01" ldate="" />
+		<Address ID="ad11" country="USA"
+		province="Wien" zipCode="1011" city="Wien" street="Grillweg"
+		streetNumber="11" apartment="" />
+	</Person>
+
+	<Person ID="p012" lName="Stus" fName="Cri" dateOfBirth="2000-12-24" eMailAddress="ich@himmel.at"
+		phoneNumber="1" isActive="true">
+		<PersonInstrumentType ID="pit12"
+			instrumentTypeID="ity4" fdate="2010-01-01" ldate="" />
+		<Address ID="ad12" country="Israel"
+		province="Jerusalem" zipCode="7777" city="Jerusalem Stadt" street="Leidensweg"
+		streetNumber="77" apartment="" />
+	</Person>
+
+	<Person ID="p013" lName="Pott" fName="Jack" dateOfBirth="2000-12-24" eMailAddress="casino@suechtig.com"
+		phoneNumber="0555 555 1" isActive="true">
+		<PersonInstrumentType ID="pit13"
+			instrumentTypeID="ity8" fdate="2010-01-01" ldate="" />
+		<PersonInstrumentType ID="pit15"
+			instrumentTypeID="ity1" fdate="2010-01-01" ldate="" />
+		<Address ID="ad13" country="USA"
+		province="Arizona" zipCode="777777" city="Las Vegas" street="Down Town"
+		streetNumber="777" apartment="" />
+	</Person>
+
+	<Person ID="p014" lName="Küre" fName="Petty" dateOfBirth="1996-04-05" eMailAddress="petty@kuere.at"
+		phoneNumber="0699 45 45 45" isActive="true">
+		<PersonInstrumentType ID="pit14"
+			instrumentTypeID="ity3" fdate="2010-01-01" ldate="" />
+		<Address ID="ad14" country="Österreich"
+		province="Vorarlberg" zipCode="6840" city="Fußach" street="Nagelbett"
+		streetNumber="14" apartment="" />
+	</Person>
+</musicpete>
+
+
