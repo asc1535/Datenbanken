@@ -9,6 +9,29 @@
 <!ATTLIST airline id ID #REQUIRED>
 
 <!ELEMENT name (#PCDATA)>
-<!ATTLIST name lang CDATA #IMPLIED>
+<!ATTLIST name lang (de | en | fr ) #IMPLIED>
 
 <!-- here comes your work -->
+<!ELEMENT flight (departure, arrival) >
+<!ATTLIST flight
+	operator-id IDREF #REQUIRED
+	nr CDATA #REQUIRED
+>
+
+<!ELEMENT departure (time, time)>
+<!ATTLIST departure
+	airport-id IDREF #REQUIRED
+>
+
+<!ELEMENT arrival (time, time)>
+<!ATTLIST arrival
+	airport-id IDREF #REQUIRED
+>
+
+<!ELEMENT time EMPTY>
+<!ATTLIST time
+	zone (GMT | local) #REQUIRED
+	day CDATA #REQUIRED
+	time CDATA #REQUIRED
+>
+

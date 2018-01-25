@@ -1,0 +1,15 @@
+X2.
+
+1) /timetable/flight[@operator-id='OS']/@nr
+
+2) count(//flight[departure/@airport-id='vie'])
+count(//departure[@airport-id='vie'])
+
+Und das Ergebnis des Ausdruckes ergibt: 2
+
+3) //airport[name[@lang='de'] = 'Genf']/name[@lang='fr']
+id('gva')/name[@lang='fr']
+//airport[3]/name[3]
+
+4) //@*
+Dieser Ausdruck liefert alle attribute-nodes des Dokumentes. Ca. 50 Stück.
