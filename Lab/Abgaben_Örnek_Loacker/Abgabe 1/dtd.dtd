@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Christoph Loacker
+	21.12.2017
+	Datenmanagement
+-->
+<!ELEMENT SKL (benutzerkategorie*, tarif*, leistung*, benutzer*, kunde*, stundenerfassung*, kilometereintrag*)>
+
+<!-- SKL -->
+<!ELEMENT benutzerkategorie EMPTY>
+<!ATTLIST benutzerkategorie id ID #REQUIRED
+							type CDATA #REQUIRED>
+
+<!ELEMENT tarif EMPTY>
+<!ATTLIST tarif id ID #REQUIRED
+				type CDATA #REQUIRED>
+
+<!ELEMENT leistung EMPTY>
+<!ATTLIST leistung 	id ID #REQUIRED
+					type CDATA #REQUIRED>
+
+<!ELEMENT benutzer (stundenerfassung*)>
+<!ATTLIST benutzer 	id ID #REQUIRED
+					id_benutzerkategorie IDREF #REQUIRED
+					vorname CDATA #REQUIRED
+					nachname CDATA #REQUIRED>
+					
+<!ELEMENT stundenerfassung EMPTY>
+<!ATTLIST stundenerfassung 	id_kunde IDREF #REQUIRED
+							id_leistung IDREF #REQUIRED
+							startzeit CDATA #REQUIRED
+							dauer CDATA #REQUIRED>
+
+<!ELEMENT kunde EMPTY>
+<!ATTLIST kunde id ID #REQUIRED
+				vorname CDATA #REQUIRED
+				nachname CDATA #REQUIRED>
+				
+<!ELEMENT gruppe EMPTY>
+<!ATTLIST gruppe	id ID #REQUIRED
+					type CDATA #REQUIRED>
+
+<!ELEMENT kilometereintrag EMPTY>
+<!ATTLIST kilometereintrag 	id ID #REQUIRED
+					   	  	id_benutzer IDREF #REQUIRED
+					   	  	datum CDATA #REQUIRED
+					   	  	kilometer CDATA #REQUIRED>

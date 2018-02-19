@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Christoph Loacker
+	21.12.2017
+	Datenmanagement
+-->
+<!DOCTYPE SKL SYSTEM "project.dtd">
+<SKL>
+	<benutzerkategorie id="benutzerkategorie-1" type="Leiter"/>
+	<benutzerkategorie id="benutzerkategorie-2" type="Mitarbeiter"/>
+		
+	<tarif id="tarif-1" type="Tarif A"/>
+	<tarif id="tarif-2" type="tarif B"/>
+    <tarif id="tarif-3" type="tarif C"/>
+    <tarif id="tarif-4" type="tarif D"/>
+    <tarif id="tarif-5" type="tarif E"/>
+    <tarif id="tarif-6" type="tarif F"/>
+    <tarif id="tarif-7" type="tarif G"/>
+	
+	<leistung id="leistung-1" type="innerhalb"/>
+	<leistung id="leistung-2" type="innerhalb"/>
+    <leistung id="leistung-3" type="außerhalb"/>
+    <leistung id="leistung-4" type="gemischt"/>
+    <leistung id="leistung-3" type="außerhalb"/>
+    <leistung id="leistung-4" type="keine"/>
+	
+    <benutzer id="benutzer-1" id_benutzerkategorie="benutzerkategorie-2" vorname="Fred" nachname="Muster">
+        <stundenerfassung id_kunde="kunde-1" id_leistung="leistung-1" startzeit="2017-12-21T08:00:00" dauer="04:00:00"/>  
+    </benutzer>
+    <benutzer id="benutzer-2" id_benutzerkategorie="benutzerkategorie-2" vorname="Uray" nachname="Örnek">
+        <stundenerfassung id_kunde="kunde-2" id_leistung="leistung-2" startzeit="2018-1-10T08:00:00" dauer="04:00:00"/>
+    </benutzer>
+    <benutzer id="benutzer-3" id_benutzerkategorie="benutzerkategorie-2" vorname="Stefan" nachname="Haid">
+        <stundenerfassung id_kunde="kunde-3" id_leistung="leistung-3" startzeit="2017-8-10T08:00:00" dauer="02:00:00"/>
+    </benutzer>
+    <benutzer id="benutzer-4" id_benutzerkategorie="benutzerkategorie-1" vorname="Saru" nachname="Örnek">
+        <stundenerfassung id_kunde="kunde-4" id_leistung="leistung-4" startzeit="2017-8-11T08:00:00" dauer="02:00:00"/>
+    </benutzer>
+	<benutzer id="benutzer-5" id_benutzerkategorie="benutzerkategorie-1" vorname="Christoph" nachname="Loacker">
+		<stundenerfassung id_kunde="kunde-1" id_leistung="leistung-1" startzeit="2017-12-21T08:00:00" dauer="04:00:00"/>	
+	</benutzer>
+	<benutzer id="benutzer-6" id_benutzerkategorie="benutzerkategorie-2" vorname="Max" nachname="Mustermann">
+		<stundenerfassung id_kunde="kunde-1" id_leistung="leistung-2" startzeit="2017-12-01T12:00:00" dauer="06:00:00"/>
+	</benutzer>
+	
+	<kunde id="kunde-1" vorname="vKunde1" nachname="nKunde1"/>
+	<kunde id="kunde-2" vorname="vKunde2" nachname="nKunde2"/>
+    <kunde id="kunde-1" vorname= "Juni" nachname="Winter"/>
+    <kunde id="kunde-2" vorname= "Lukas" nachname="Bildstein"/>
+    <kunde id="kunde-3" vorname= "Sarah" nachname="Handlos"/>
+    <kunde id="kunde-4" vorname= "Max" nachname="Musterfrau"/> 
+    <kunde id="kunde-5" vorname= "Martin" nachname="Bischof"/> 
+    
+    <gruppe id="Gruppe-A" type="Kinder"/>
+  <gruppe id="Gruppe-B" type="Erwachsene"/>
+  <gruppe id="Gruppe-C" type="Alt"/>
+  
+  <kilometereintrag id="kilometereintrag-1" id_benutzer="benutzer-1" datum="2017-12-21" kilometer="15"/>
+  <kilometereintrag id="kilometereintrag-2" id_benutzer="benutzer-2" datum="2018-1-10" kilometer="5"/>
+  <kilometereintrag id="kilometereintrag-3" id_benutzer="benutzer-3" datum="2017-8-10" kilometer="5"/>
+  <kilometereintrag id="kilometereintrag-4" id_benutzer="benutzer-4" datum="2017-8-11" kilometer="2"/>
+</SKL>
